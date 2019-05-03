@@ -6,6 +6,7 @@ This project aims to collect all knowledge points related to graph neural networ
 
 # 十万个为什么
 本栏目收集所有图网络相关问答，若您有任何关于图网络的不解之处，欢迎发issue，此处将收录优质提问与解答(如果是某篇特定图网络相关论文的问题发issue时请标上序号，问答将被收录在对应 readme 中)。如果您有意愿分享图网络相关问题的解答，欢迎 fork 或 issue。
-1.什么是图神经网络？
+
+1. 什么是图神经网络？
 
 # 论文要点解析
