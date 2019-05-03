@@ -12,6 +12,7 @@ This project aims to collect all knowledge points related to graph neural networ
 
 ## 2. 图网络具有哪些优势？
 - 图网络可以处理非欧几里得数据。
+
 ![](https://github.com/cy69855522/what-is-graph-neural-network/blob/master/sources/non-Euclidean.png)
 
 ## 3. 图网络在哪些方面有待研究？
