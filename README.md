@@ -11,7 +11,8 @@ This project aims to collect all knowledge points related to graph neural networ
 - 图是一种数据结构，它对一组对象（节点）及其关系（边）进行建模。图神经网络（GNN）是一类基于深度学习的处理图域信息的方法。由于其较好的性能和可解释性，GNN 最近已成为一种广泛应用的图分析方法。
 
 ## 2. 图网络具有哪些优势？
-- 图网络可以处理非欧几里得数据。!(https://github.com/cy69855522/what-is-graph-neural-network/blob/master/sources/non-Euclidean.png)
+- 图网络可以处理非欧几里得数据。
+![](https://github.com/cy69855522/what-is-graph-neural-network/blob/master/sources/non-Euclidean.png)
 
 ## 3. 图网络在哪些方面有待研究？
 
