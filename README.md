@@ -15,7 +15,7 @@ This project aims to collect all knowledge points related to graph neural networ
 
 ![](https://github.com/cy69855522/what-is-graph-neural-network/blob/master/sources/non-Euclidean.png)
 
-## 3. 图网络在哪些方面有待研究？
+## 3. 图网络存在哪些不足？
 
 ## 4. 图网络的应用有哪些？
 
