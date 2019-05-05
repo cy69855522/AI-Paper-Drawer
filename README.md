@@ -1,7 +1,7 @@
 # What-Is-Graph-Neural-Network?
 This project aims to collect all knowledge points related to graph neural network (basic knowledge, key points analysis of the paper, etc.).
 # 前言
-- 有关图网络的中文资料太少了 😐 本项目意在收集所有与图神经网络有关的知识点（基础知识、论文要点解析等）。独木不成林，独林不成森🌴。如果您有想要分享的相关知识点欢迎 fork 或 直接发 issue，能力有限，无法保证所收录内容的绝对准确性，如有疑问或指教，期待与您 issue 相见 ⛄。
+- 有关图网络的中文资料太少了 😐 本项目意在收集所有与图神经网络有关的知识点（基础知识、论文要点解析等）。🌴独木不成林，独林不成森。如果您有想要分享的相关知识点欢迎 fork 或 直接发 issue，能力有限，无法保证所收录内容的绝对准确性，如有疑问或指教，期待与您 issue 相见 ⛄。
 - 图网络研究交流QQ群：832405795
 
 # 十万个为什么
@@ -23,5 +23,5 @@ This project aims to collect all knowledge points related to graph neural networ
 
 # 论文要点解析
 ## 1. [Graph Neural Networks: A Review of Methods and Applications](https://arxiv.org/pdf/1812.08434.pdf)
-- 卷积神经网络（CNN）是GNN起源的首要动机，CNN只能应用于常规的欧几里得数据上（例如2-D的图片、1-D的文本），这些形式的数据可以被看成是图的实例化。随着对GNN和CNN的深入分析，发现其有三个共同的特点：（1）局部连接（2）权值共享（3）多层网络。这对于GNN来说同样有重要的意义。（1）局部连接是图的最基本的表现形式。（2）权值共享可以减少网络的计算量。（3）多层结构可以让网络捕获不同的特征。然而，从CNN到GNN的转变还面临这另一个问题，难以定义局部卷积核和池化操作。
+- 卷积神经网络（CNN）是GNN起源的首要动机，CNN只能应用于常规的欧几里得数据上（例如2-D的图片、1-D的文本），这些形式的数据可以被看成是图的实例化。随着对GNN和CNN的深入分析，发现其有三个共同的特点：（1）局部连接（2）权值共享（3）多层网络。这对于GNN来说同样有重要的意义。（1）局部连接是图的最基本的表现形式。（2）权值共享可以减少网络的计算量。（3）多层结构可以让网络捕获不同的特征。然而，从CNN到GNN的转变还面临着另一个问题，难以定义局部卷积核和池化操作。
 - 图嵌入（DeepWalk、RandomWalk等）存在两个缺点：（1）图中节点之间不存在任何的参数共享，导致计算量与节点数量呈线性增长。（2）图嵌入技术缺乏泛化能力，导致不能处理动态图或推广至新的图。
