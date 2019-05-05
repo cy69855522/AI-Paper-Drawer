@@ -29,10 +29,10 @@ This project aims to collect all knowledge points related to graph neural networ
 - 图嵌入（DeepWalk、RandomWalk等）存在两个缺点：（1）图中节点之间不存在任何的参数共享，导致计算量与节点数量呈线性增长。（2）图嵌入技术缺乏泛化能力，导致不能处理动态图或推广至新的图。
 - 原始 GNN
   - 在图中，每个节点的定义是由该节点的特征和相关节点来共同表示的。GNN的目标是训练出一个state embedding函数hv，该函数包含了每个节点的领域信息。`hv = f(xv,xco[v],hne[v],xne[v]) （1）` hv是节点v的向量化表示，它可以被用来去预测该节点的输出ov（例如节点的标签）。`f（*）`被称为local transition function，它被所有的节点共享，并根据输入的领域信息来更新节点的状态。xv是节点v的特征表示，xco[v]是v节点上边的特征表示，hne[v]是该节点的状态，xne[v] 是节点v周围节点的特征表示。
-  - `ov = g(hv,xv) (2) ` `g（*）`被称为local output function，它是用来产生节点的输出的。
+  - `ov = g(hv,xv) (2) `中`g（*）`被称为local output function，它是用来产生节点的输出的。
   - `H = F(H,X) (3)    O = G(H,XN) (4) `H、O、X、XN为其推广形式，代表图中的所有对象的堆叠形式。
   - Banach的fixed point提出以后，GNN中state的迭代计算过程可以表示为：`Ht+1 = F(Ht,X) (5) `Ht代表H的第t次迭代的状态，H（0）代表其动态方程的初始状态。
-  - 
+  -  对于一个GNN网络来说，其训练过程就是学习出函数`f（*）`和`g（*）`，tv代表节点v的标签，GNN的优化过程为：![](sources/papers/1/1.png)
 ### 参考
 - [博客译文](https://blog.csdn.net/m0_38031488/article/details/88414320)
 - [Banach不动点定理](https://zhuanlan.zhihu.com/p/33885648)
