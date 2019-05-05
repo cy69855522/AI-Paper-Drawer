@@ -21,6 +21,7 @@ This project aims to collect all knowledge points related to graph neural networ
 
 ## 4. GNN的应用有哪些？
 
+## 5. GNN方向常用数据集有哪些？
 # 论文要点解析
 ## 1. [Graph Neural Networks: A Review of Methods and Applications](https://arxiv.org/pdf/1812.08434.pdf)
 ### 要点记录
