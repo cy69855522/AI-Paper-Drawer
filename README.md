@@ -25,3 +25,4 @@ This project aims to collect all knowledge points related to graph neural networ
 ## 1. [Graph Neural Networks: A Review of Methods and Applications](https://arxiv.org/pdf/1812.08434.pdf)
 - 卷积神经网络（CNN）是GNN起源的首要动机，CNN只能应用于常规的欧几里得数据上（例如2-D的图片、1-D的文本），这些形式的数据可以被看成是图的实例化。随着对GNN和CNN的深入分析，发现其有三个共同的特点：（1）局部连接（2）权值共享（3）多层网络。这对于GNN来说同样有重要的意义。（1）局部连接是图的最基本的表现形式。（2）权值共享可以减少网络的计算量。（3）多层结构可以让网络捕获不同的特征。然而，从CNN到GNN的转变还面临着另一个问题，难以定义局部卷积核和池化操作。
 - 图嵌入（DeepWalk、RandomWalk等）存在两个缺点：（1）图中节点之间不存在任何的参数共享，导致计算量与节点数量呈线性增长。（2）图嵌入技术缺乏泛化能力，导致不能处理动态图或推广至新的图。
+- hv = f(xv,xco[v],hne[v],xne[v]) （1） hv是节点v的向量化表示，它可以被用来去预测该节点的输出ov（例如节点的标签）。f（）被称为local transition function，它被所有的节点共享，并根据输入的领域信息来更新节点的状态。xv是节点v的特征表示，xco[v]是v节点上边的特征表示，hne[v]是该节点的状态，xne[v] 是节点v周围节点的特征表示。
