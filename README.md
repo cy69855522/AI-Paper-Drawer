@@ -6,12 +6,15 @@ This project aims to collect all knowledge points related to graph neural networ
 
 # 十万个为什么 Hundred thousand whys
 本栏目收集所有图网络相关问答 🤡，若您有任何关于图网络的不解之处，欢迎发issue，此处将收录优质提问与解答(如果是某篇特定图网络论文的问题发issue时请标上论文序号或名字，问答将被收录在对应 readme 中)。如果您有意愿分享图网络相关问题的解答，欢迎 fork 或 issue。
+
 This column collects all graph network related questions and answers, please feel free to raise a issue to ask or answer questions.
 ## 1. 什么是图神经网络？ What is graph neural networks?
 - 图是一种数据结构，它对一组对象（节点）及其关系（边）进行建模。图神经网络（GNN）是一类基于深度学习的处理图域信息的方法。由于其较好的性能和可解释性，GNN 最近已成为一种广泛应用的图分析方法。
+
   A graph is a data structure that models a set of objects (nodes) and their relationships (edges). Graph neural network (GNN) is a kind of graph domain information processing method based on deep learning. GNN has recently become a widely used graph analysis method due to its good performance and interpretability.
 ## 2. 图网络具有哪些优势？ What are the advantages of graph networks?
 - 图网络可以处理非欧几里得数据。
+
   Graph networks can handle non - Euclidean data.
 
 ![](https://github.com/cy69855522/what-is-graph-neural-network/blob/master/sources/non-Euclidean.png)
