@@ -22,6 +22,10 @@ This project aims to collect all knowledge points related to graph neural networ
 ## 4. GNN的应用有哪些？
 
 ## 5. GNN方向常用数据集有哪些？
+
+## 6. 支持GNN的神经网络框架有哪些？
+- 🌟推荐 [Pytorch Geometric](https://github.com/rusty1s/pytorch_geometric)：速度快（约DGL的15倍），复现多，支持pytorch
+- [DGL] 支持PyTorch、MXNet、TensorFlow 等主流框架
 # 论文要点解析
 ## 1. [Graph Neural Networks: A Review of Methods and Applications](https://arxiv.org/pdf/1812.08434.pdf)
 ### 符号表
