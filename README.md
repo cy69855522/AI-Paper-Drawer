@@ -30,8 +30,10 @@ This project aims to collect all knowledge points related to graph neural networ
 - 用户画像
 ### 边上的任务
 - 推荐系统
+
 ![](sources/推荐系统.jpg)
 - 知识图谱
+
 ![](sources/知识图谱.jpg)
 ### 图上的任务
 - 高分子分类
