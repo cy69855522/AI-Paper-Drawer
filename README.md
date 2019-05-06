@@ -61,7 +61,7 @@ This project aims to collect all knowledge points related to graph neural networ
 - 🌟推荐 [Pytorch Geometric](https://github.com/rusty1s/pytorch_geometric)：速度快（约DGL的15倍），复现多，支持pytorch
 - [DGL](https://github.com/jermainewang/dgl)：支持PyTorch、MXNet、TensorFlow 等主流框架
 # 论文要点解析
-
+1. [Graph Neural Networks: A Review of Methods and Applications](sources/papers/1/README.md)
 # 贡献者
 注意：此处仅代表知识点整理或答题贡献，不代表内容全部原创，整理资料时请一并提供引文出处。此处排名不分先后，仅按时间顺序排列。
 - Knife丶 QQ：1272068154 微信：ly18597591102
