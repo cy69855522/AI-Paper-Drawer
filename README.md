@@ -57,10 +57,6 @@ This project aims to collect all knowledge points related to graph neural networ
 - QM9：https://github.com/geekinglcq/QM9nano4USTC
 - Tox21：https://tripod.nih.gov/tox21/challenge/data.jsp
 
-作者：VTS三只小猪
-链接：https://www.jianshu.com/p/67137451b67f
-来源：简书
-简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。
 ## 6. 支持GNN的神经网络框架有哪些？
 - 🌟推荐 [Pytorch Geometric](https://github.com/rusty1s/pytorch_geometric)：速度快（约DGL的15倍），复现多，支持pytorch
 - [DGL](https://github.com/jermainewang/dgl)：支持PyTorch、MXNet、TensorFlow 等主流框架
