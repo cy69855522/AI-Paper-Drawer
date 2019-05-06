@@ -18,14 +18,25 @@ This project aims to collect all knowledge points related to graph neural networ
 - 图中的边表示两个节点之间的依赖关系。在传统的神经网络中，这种依赖关系只能通过节点的特征表示来体现。GNN可以依赖周围的状态来更新节点的状态。
 - 推理能力，与人类从日常经验中获取推理能力相似，GNN能够从非结构化数据（例如:场景图片、故事片段等）中生成图。与之对比的是，传统CNN和RNN能够从大量经验数据中生成完整的图片和文档，但并不能学习出这种推理图（reasoning graph）。
 ## 3. GNN存在哪些不足？
-
+- 浅层结构：目前GNN还只能在较浅层的网络上发挥优势，随着层数的加深，网络会出现退化。
+- 动态图：目前大多方法只能应用在静态图上，对于动态图还没有特别好的解决方案。
+- 非结构化场景：还没有一个通用的方法来合理的处理非结构化数据。
+- 扩展性：将图网络应用于大规模数据上仍然面临着不小的困难。
 ## 4. GNN的应用有哪些？
+- 社交网络
+
+![](sources/社交网络.jpg)
+  利用社交网络图可以实现以下任务：
+  1. 推荐用户可能感兴趣的人
+  2. 推荐用户可能感兴趣的帖子或者内容
+  3. 社群发现（通过用户社交关系网络挖掘群体结构）
+  4. 用户画像（地点、兴趣、关系网络）
 
 ## 5. GNN方向常用数据集有哪些？
 
 ## 6. 支持GNN的神经网络框架有哪些？
 - 🌟推荐 [Pytorch Geometric](https://github.com/rusty1s/pytorch_geometric)：速度快（约DGL的15倍），复现多，支持pytorch
-- [DGL] 支持PyTorch、MXNet、TensorFlow 等主流框架
+- [DGL](https://github.com/jermainewang/dgl)：支持PyTorch、MXNet、TensorFlow 等主流框架
 # 论文要点解析
 ## 1. [Graph Neural Networks: A Review of Methods and Applications](https://arxiv.org/pdf/1812.08434.pdf)
 ### 符号表
@@ -51,11 +62,7 @@ This project aims to collect all knowledge points related to graph neural networ
   - Skip connection：研究发现更深的网络层数可以帮助网络在节点的邻域节点上获取到更多的信息。但通过实验也发现深层网络也会在网络传播中带来噪声信息，随着网络层数的加深，网络还会出现退化。基于图像领域的启发，residual network和highway network 这些skip 模型能够有效的处理这一问题。
   ![](sources/papers/1/6.png)
 - 图网络被广泛的应用于包括监督学习、半监督学习、无监督学习和强化学习等方向。论文中从三个不同的场景来分别阐述图网络的应用。（1）结构化场景：数据包含有很明确的关系结构，如物理系统、分子结构和知识图谱。（2）非结构化场景：数据不包含明确的关系结构，例如文本和图像等领域。（3）其他应用场景：例如生成式模型和组合优化模型。各个领域图网络的应用细节如下图所示：![](sources/papers/1/4.PNG) ![](sources/papers/1/5.PNG)
-- 4个开放性问题
-  - 浅层结构：目前GNN还只能在较浅层的网络上发挥优势，随着层数的加深，网络会出现退化。
-  - 动态图：目前大多方法只能应用在静态图上，对于动态图还没有特别好的解决方案。
-  - 非结构化场景：还没有一个通用的方法来合理的处理非结构化数据。
-  - 扩展性：将图网络应用于大规模数据上仍然面临着不小的困难。
+
 ### 参考
 - [博客译文](https://blog.csdn.net/m0_38031488/article/details/88414320)
 - [Banach不动点定理](https://zhuanlan.zhihu.com/p/33885648)
