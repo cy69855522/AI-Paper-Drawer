@@ -28,19 +28,39 @@ This project aims to collect all knowledge points related to graph neural networ
 - 价值排名
 - 社群检测
 - 用户画像
+- 节点分类
 ### 边上的任务
 - 推荐系统
-
-![](sources/推荐系统.jpg)
-- 知识图谱
-
-![](sources/知识图谱.jpg)
+- 知识推理
+- 链路预测
 ### 图上的任务
 - 高分子分类
-- 点云分类、分割
+- 点云分类、识别、分割
+- 表示学习/图嵌入
+- 图聚类
+- 图匹配
+- 图生成
+- 图相似度度量
+- 人体骨架识别
 
 ## 5. GNN方向常用数据集有哪些？
+- Cora：https://s3.us-east-2.amazonaws.com/dgl.ai/dataset/cora_raw.zip
+- Pubmed：https://s3.us-east-2.amazonaws.com/dgl.ai/dataset/pubmed.zip
+- Citeseer：https://s3.us-east-2.amazonaws.com/dgl.ai/dataset/citeseer.zip
+- BlogCatalog：http://socialcomputing.asu.edu/datasets/BlogCatalog
+- Reddit：https://github.com/linanqiu/reddit-dataset
+- Epinions：http://www.trustlet.org/downloaded_epinions.html
+- PPI：http://snap.stanford.edu/graphsage/ppi.zip
+- NCI-1：https://ls11-www.cs.uni-dortmund.de/people/morris/graphkerneldatasets/NCI1.zip
+- NCI-109：https://ls11-www.cs.uni-dortmund.de/people/morris/graphkerneldatasets/NCI109.zip
+- MUTAG：https://ls11-www.cs.uni-dortmund.de/people/morris/graphkerneldatasets/MUTAG.zip
+- QM9：https://github.com/geekinglcq/QM9nano4USTC
+- Tox21：https://tripod.nih.gov/tox21/challenge/data.jsp
 
+作者：VTS三只小猪
+链接：https://www.jianshu.com/p/67137451b67f
+来源：简书
+简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。
 ## 6. 支持GNN的神经网络框架有哪些？
 - 🌟推荐 [Pytorch Geometric](https://github.com/rusty1s/pytorch_geometric)：速度快（约DGL的15倍），复现多，支持pytorch
 - [DGL](https://github.com/jermainewang/dgl)：支持PyTorch、MXNet、TensorFlow 等主流框架
