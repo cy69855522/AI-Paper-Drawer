@@ -43,6 +43,7 @@ This project aims to collect all knowledge points related to graph neural networ
 - [DGL](https://github.com/jermainewang/dgl)：支持PyTorch、MXNet、TensorFlow 等主流框架
 # 论文要点解析
 ## 1. [Graph Neural Networks: A Review of Methods and Applications](https://arxiv.org/pdf/1812.08434.pdf)
+图神经网络:方法与应用综述
 ### 符号表
 ![](sources/papers/1/2.png)
 ### 要点记录
