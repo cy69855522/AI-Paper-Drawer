@@ -66,7 +66,7 @@ This project aims to collect all knowledge points related to graph neural networ
 # 论文要点解析
 1. [Graph Neural Networks: A Review of Methods and Applications](sources/papers/1/README.md)
 
-  对现有的图神经网络模型进行了详细的回顾。介绍了原始模型、它的变体和几个通用框架。研究了这一领域的各种模型，并在不同的模型中提供了一个统一的表示方法来实现不同的传播步骤。将应用场景分为结构化场景、非结构化场景和其他场景。提出了四个有待进一步研究的问题。
+对现有的图神经网络模型进行了详细的回顾。介绍了原始模型、它的变体和几个通用框架。研究了这一领域的各种模型，并在不同的模型中提供了一个统一的表示方法来实现不同的传播步骤。将应用场景分为结构化场景、非结构化场景和其他场景。提出了四个有待进一步研究的问题。
 
 
 # 贡献者
