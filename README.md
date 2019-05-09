@@ -64,11 +64,16 @@ This project aims to collect all knowledge points related to graph neural networ
 ## 7. 图模型和概率图模型有什么区别？
 
 # 论文要点解析
-## 1. [Graph Neural Networks: A Review of Methods and Applications](sources/papers/1/README.md)
+## 图网络
+### A1. [Graph Neural Networks: A Review of Methods and Applications](sources/papers/1/README.md)：2018/综述
 - 对现有的图神经网络模型进行了详细的回顾。介绍了原始模型、它的变体和几个通用框架。研究了这一领域的各种模型，并在不同的模型中提供了一个统一的表示方法来实现不同的传播步骤。
 - 将应用场景分为结构化场景、非结构化场景和其他场景。
 - 提出了四个有待进一步研究的问题。
-
+## 点云
+### B1. [PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation](sources/papers/PointNet/README.md)：2016/分类/部件分割/语义分割
+- 设计了一种新的直接计算点云的神经网络，它很好地考虑了输入点的排列不变性。
+- 利用对称函数（本文利用MaxPooling）获取具有排列不变性的全局特征。
+- 使用T-Net提取全局信息，对点云施加线性变换，提供对点云旋转平移等变换的不变形。
 # 相关资料
 - [图神经网络(GNN)论文收集与概括](https://github.com/zeal-github/Graph-neural-network)
 
