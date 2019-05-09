@@ -69,6 +69,8 @@ This project aims to collect all knowledge points related to graph neural networ
 - 将应用场景分为结构化场景、非结构化场景和其他场景。
 - 提出了四个有待进一步研究的问题。
 
+# 相关资料
+- [图神经网络(GNN)论文收集与概括](https://github.com/zeal-github/Graph-neural-network)
 
 # 贡献者
 注意：此处仅代表知识点整理或答题贡献，不代表内容全部原创，整理资料时请一并提供引文出处。此处排名不分先后，仅按时间顺序排列。
