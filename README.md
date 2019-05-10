@@ -69,6 +69,7 @@ This project aims to collect all knowledge points related to graph neural networ
 - 对现有的图神经网络模型进行了详细的回顾。介绍了原始模型、它的变体和几个通用框架。研究了这一领域的各种模型，并在不同的模型中提供了一个统一的表示方法来实现不同的传播步骤。
 - 将应用场景分为结构化场景、非结构化场景和其他场景。
 - 提出了四个有待进一步研究的问题。
+### A2. [SEMI-SUPERVISED CLASSIFICATION WITH GRAPH CONVOLUTIONAL NETWORKS](sources/papers/GCN/README.md)：2017/节点分类
 ## 点云
 ### B1. [PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation](sources/papers/PointNet/README.md)：2016/分类/部件分割/语义分割
 - 设计了一种新的直接计算点云的神经网络，它很好地考虑了输入点的排列不变性。
