@@ -5,6 +5,7 @@
 - CNN中的卷积：
 ![](CNN1.png)
 ![](CNN2.gif)
+![](cnnlayers.png)
 - 傅里叶变换：
 
   ![](傅里叶级数.jpg)
