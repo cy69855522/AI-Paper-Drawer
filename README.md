@@ -63,6 +63,11 @@ This project aims to collect all knowledge points related to graph neural networ
 
 ## 7. 图模型和概率图模型有什么区别？
 
+## 8. 图结构的数据如何绘制出来？
+![](sources/绘图.png)
+
+[Force-Directed Graph](https://observablehq.com/@d3/force-directed-graph?tdsourcetag=s_pcqq_aiomsg)
+
 # 论文要点解析
 ## 图网络
 ### A1. [Graph Neural Networks: A Review of Methods and Applications](sources/papers/1/README.md)：2018/综述
