@@ -59,7 +59,7 @@ This project aims to collect all knowledge points related to graph neural networ
 
 ## 6. 支持GNN的神经网络框架有哪些？
 - [Pytorch Geometric](https://github.com/rusty1s/pytorch_geometric)：速度快，复现多，支持pytorch
-- [DGL](https://github.com/jermainewang/dgl)：支持PyTorch、MXNet、TensorFlow 等主流框架
+- [DGL](https://github.com/jermainewang/dgl)：支持PyTorch、MXNet、TensorFlow 等主流框架，能够在巨大的图上（5亿节点，250亿边）训练图神经网络
 
 ## 7. 图模型和概率图模型有什么区别？
 
