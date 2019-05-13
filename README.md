@@ -86,4 +86,6 @@ This project aims to collect all knowledge points related to graph neural networ
 
 # 贡献者
 注意：此处仅代表知识点整理或答题贡献，不代表内容全部原创，整理资料时请一并提供引文出处。此处排名不分先后，仅按时间顺序排列。
-- Knife丶 QQ：1272068154 微信：ly18597591102
+- [Knife丶](https://github.com/cy69855522) QQ：1272068154 微信：ly18597591102
+- [zeal-github](https://github.com/zeal-github)
+- [DarrenmondZhang](https://github.com/DarrenmondZhang)
