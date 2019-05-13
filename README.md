@@ -82,6 +82,7 @@ This project aims to collect all knowledge points related to graph neural networ
 - 使用T-Net提取全局信息，对点云施加线性变换，提供对点云旋转平移等变换的不变形。
 # 相关资料
 - [图神经网络(GNN)论文收集与概括](https://github.com/zeal-github/Graph-neural-network)
+- [图网络必读论文列表](https://github.com/thunlp/GNNPapers)
 
 # 贡献者
 注意：此处仅代表知识点整理或答题贡献，不代表内容全部原创，整理资料时请一并提供引文出处。此处排名不分先后，仅按时间顺序排列。
