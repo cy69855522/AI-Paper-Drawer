@@ -76,5 +76,6 @@
 - [傅里叶变换通俗讲解](https://www.cnblogs.com/h2zZhou/p/8405717.html)
 - [经典半监督图卷积神经网络Semi-GCN解读](https://zhuanlan.zhihu.com/p/58178060)
 - [拉普拉斯矩阵百度百科](https://www.baidu.com/link?url=JIdfpekQVVcTu_g9Ow2_H_NVnQb0sGuytxo3LbCKO_k42YJuKdrAgdmLZMTjXcljR577ui4NrYSVI9DumUkh6GVuK0otPCrDpATBz1kJ9F42tYBMzEEBpm8_MlDnNWk3D1-lV-XptefSNYqDonLrp_&wd=&eqid=e513fd7300045e81000000065cdac6ec)
+- [译文](https://blog.csdn.net/w986284086/article/details/80270653)
 ## 提问
 1. 
