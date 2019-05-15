@@ -1,6 +1,6 @@
 # [SEMI-SUPERVISED CLASSIFICATION WITH GRAPH CONVOLUTIONAL NETWORKS](https://arxiv.org/pdf/1609.02907.pdf)
 ![](gcn.png)
-- 作者提出了一种可扩展的基于图数据结构的半监督学习方法，该方法基于一个有效的卷积神经网络变种，这种变种能够直接对图进行操作。通过光谱图卷积的局部一阶近似来确定卷积网络结构的选择。模型在图的边的数量上线性缩放，并可以学习隐藏层表示，这些表示既编码局部图结构，也能够编码节点的特征。
+- 本文提出了一种图卷积网络（graph covolutional networks, GCNs），该网络是传统卷积算法在图结构数据上的一个变体，可以直接用于处理图结构数据。从本质上讲，GCN 是谱图卷积（spectral graph convolution） 的局部一阶近似（localized first-order approximation）。GCN的另一个特点在于其模型规模会随图中边的数量的增长而线性增长。总的来说，GCN 可以用于对局部图结构与节点特征进行编码。
 ## 背景
 - CNN中的卷积：
 ![](CNN1.png)
@@ -77,5 +77,7 @@
 - [经典半监督图卷积神经网络Semi-GCN解读](https://zhuanlan.zhihu.com/p/58178060)
 - [拉普拉斯矩阵百度百科](https://www.baidu.com/link?url=JIdfpekQVVcTu_g9Ow2_H_NVnQb0sGuytxo3LbCKO_k42YJuKdrAgdmLZMTjXcljR577ui4NrYSVI9DumUkh6GVuK0otPCrDpATBz1kJ9F42tYBMzEEBpm8_MlDnNWk3D1-lV-XptefSNYqDonLrp_&wd=&eqid=e513fd7300045e81000000065cdac6ec)
 - [译文](https://blog.csdn.net/w986284086/article/details/80270653)
+- [阅读笔记](https://zhuanlan.zhihu.com/p/31067515)
 ## 提问
-1. 
+1. 拉普拉斯矩阵中为什么一阶邻域节点是负值？
+2. 
