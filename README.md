@@ -80,6 +80,9 @@ This project aims to collect all knowledge points related to graph neural networ
 - 设计了一种新的直接计算点云的神经网络，它很好地考虑了输入点的排列不变性。
 - 利用对称函数（本文利用MaxPooling）获取具有排列不变性的全局特征。
 - 使用T-Net提取全局信息，对点云施加线性变换，提供对点云旋转平移等变换的不变形。
+### B2. [PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space](sources/papers/PointNet++/README.md)：2017/分类/部件分割/语义分割
+- 类比2D图像领域的CNN，利用FPS、KNN和PointNet设计3D卷积模块使得模型能够获取局部语义信息，提高模型鲁棒性
+- 利用多尺度/多分辨率特征级联提取局部特征，缓解点云密度不均问题
 # 相关资料
 - [图神经网络(GNN)论文收集与概括](https://github.com/zeal-github/Graph-neural-network)
 - [图网络必读论文列表](https://github.com/thunlp/GNNPapers)
