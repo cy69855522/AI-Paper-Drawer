@@ -66,7 +66,11 @@ This project aims to collect all knowledge points related to graph neural networ
 ## 8. 图结构的数据如何绘制出来？
 ![](sources/绘图.png)
 
-[Force-Directed Graph](https://observablehq.com/@d3/force-directed-graph?tdsourcetag=s_pcqq_aiomsg)
+- [Force-Directed Graph](https://observablehq.com/@d3/force-directed-graph?tdsourcetag=s_pcqq_aiomsg)
+
+![](sources/可视化2.png)
+
+- [NetworkGraph](https://github.com/iaboaix/NetworkGraph)
 
 # 论文要点解析
 ## 图网络
