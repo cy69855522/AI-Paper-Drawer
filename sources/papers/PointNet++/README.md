@@ -9,8 +9,6 @@
     
     ![](FPS图解.png)
     
-    ![](fps调试.png)
-    
 ## 模型流程
 ![](结构.png)
 - set abstraction: 主要分为Sampling layer、Grouping layer 和PointNet layer
@@ -68,10 +66,9 @@
     ![](激活.png)
 ### Drawbacks
 - 对点集进行采样丢失了信息
-- 对点集的采样鲁棒性差，无法避免采样到噪点，影响精度
-- 多尺度的特征提取并未直接解决密度不均匀的问题
-## 好句
-- CNN介绍：However, exploiting local structure has proven to be important for the success of convolutional architectures. A CNN takes data defined on regular grids as the input and is able to progressively capture features at increasingly larger scales along a multi-resolution hierarchy. At lower levels neurons have smaller receptive fields whereas at higher levels they have larger receptive fields. The ability to abstract local patterns along the hierarchy allows better generalizability to unseen cases.
+- 超参数不容易控制
+- 不同组中K临近可能重复
+- 多尺度/多分辨率的特征提取速度慢
 ## 参考
 - [博客解析](https://blog.csdn.net/qq_15332903/article/details/80261951)
 - [译文（上）](https://blog.csdn.net/weixin_40664094/article/details/83902950)
