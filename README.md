@@ -79,22 +79,22 @@ This project aims to collect all knowledge points related to graph neural networ
 - 将应用场景分为结构化场景、非结构化场景和其他场景。
 - 提出了四个有待进一步研究的问题。
 ## 谱域卷积
-### [Spectral Networks and Deep Locally Connected Networks on Graphs](sources/papers//README.md)：NIPS2014
-### [SEMI-SUPERVISED CLASSIFICATION WITH GRAPH CONVOLUTIONAL NETWORKS](sources/papers/GCN/README.md)：2017/节点分类
+### [Spectral Networks and Deep Locally Connected Networks on Graphs](sources/papers//README.md)：NIPS 2014
+### [SEMI-SUPERVISED CLASSIFICATION WITH GRAPH CONVOLUTIONAL NETWORKS](sources/papers/GCN/README.md)：ICLR 2017/节点分类
 ## 空域卷积
 ### [Inductive Representation Learning on Large Graphs](sources/papers//README.md)：
 ## 注意力
 ### [Graph Attention Networks](sources/papers//README.md)：
 ## 门控
-### [](sources/papers//README.md)：
+### [Gated Graph Sequence Neural Networks](sources/papers//README.md)：
 ## 跳跃连接
 ### [](sources/papers//README.md)：
 ## 点云
-### [PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation](sources/papers/PointNet/README.md)：2016/分类/部件分割/语义分割
+### [PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation](sources/papers/PointNet/README.md)：CVPR 2017/分类/部件分割/语义分割
 - 设计了一种新的直接计算点云的神经网络，它很好地考虑了输入点的排列不变性。
 - 利用对称函数（本文利用MaxPooling）获取具有排列不变性的全局特征。
 - 使用T-Net提取全局信息，对点云施加线性变换，提供对点云旋转平移等变换的不变形。
-### [PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space](sources/papers/PointNet++/README.md)：2017/分类/部件分割/语义分割
+### [PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space](sources/papers/PointNet++/README.md)：NIPS 2017/分类/部件分割/语义分割
 - 类比2D图像领域的CNN，利用FPS、KNN和PointNet设计3D卷积模块使得模型能够获取局部语义信息，提高模型鲁棒性
 - 利用多尺度/多分辨率特征级联提取局部特征，缓解点云密度不均问题
 # 相关资料
