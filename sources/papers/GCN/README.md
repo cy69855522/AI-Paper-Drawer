@@ -104,10 +104,11 @@ GCN的损失函数同样是交叉熵函数，与NN的区别只是在于计算损
 - 
 ## 参考
 - [傅里叶变换通俗讲解](https://www.cnblogs.com/h2zZhou/p/8405717.html)
-- [【知乎·金柔】经典半监督图卷积神经网络Semi-GCN解读](https://zhuanlan.zhihu.com/p/58178060)
+- [【知乎】经典半监督图卷积神经网络Semi-GCN解读](https://zhuanlan.zhihu.com/p/58178060)
 - [拉普拉斯矩阵百度百科](https://www.baidu.com/link?url=JIdfpekQVVcTu_g9Ow2_H_NVnQb0sGuytxo3LbCKO_k42YJuKdrAgdmLZMTjXcljR577ui4NrYSVI9DumUkh6GVuK0otPCrDpATBz1kJ9F42tYBMzEEBpm8_MlDnNWk3D1-lV-XptefSNYqDonLrp_&wd=&eqid=e513fd7300045e81000000065cdac6ec)
 - [译文](https://blog.csdn.net/w986284086/article/details/80270653)
 - [阅读笔记](https://zhuanlan.zhihu.com/p/31067515)
+- [【知乎】从空域角度看待图卷积](https://www.zhihu.com/question/54504471/answer/611222866)
 ## 提问
 1. 拉普拉斯矩阵中为什么一阶邻域节点是负值？
 2. 
