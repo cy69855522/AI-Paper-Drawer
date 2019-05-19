@@ -5,7 +5,7 @@ This project aims to collect all knowledge points related to graph neural networ
 - 图网络研究交流QQ群：832405795
 
 # 十万个为什么
-本栏目收集所有图网络相关问答 🤡，若您有任何关于图网络的不解之处，欢迎发issue，此处将收录优质提问与解答(如果是某篇特定图网络论文的问题发issue时请标上论文序号或名字，问答将被收录在对应 readme 中)。如果您有意愿分享图网络相关问题的解答，欢迎 fork→PR 或 issue。
+本栏目收集所有图网络相关问答 🤡，若您有任何关于图网络的不解之处，欢迎发issue，此处将收录优质提问与解答(如果是某篇特定图网络论文的问题发issue时请标上论文名字，问答将被收录在对应 readme 中)。如果您有意愿分享图网络相关问题的解答，欢迎 fork→PR 或 issue。
 
 ## 1. 什么是GNN？
 - 图是一种数据结构，它对一组对象（节点）及其关系（边）进行建模。图神经网络（GNN）是一类基于深度学习的处理图域信息的方法。由于其较好的性能和可解释性，GNN 最近已成为一种广泛应用的图分析方法。
@@ -73,19 +73,28 @@ This project aims to collect all knowledge points related to graph neural networ
 - [NetworkGraph](https://github.com/iaboaix/NetworkGraph)
 
 # 论文要点解析
-## 图网络
-- **综述**
-### A1. [Graph Neural Networks: A Review of Methods and Applications](sources/papers/1/README.md)：2018/综述
+## 综述
+### [Graph Neural Networks: A Review of Methods and Applications](sources/papers/1/README.md)：2018/综述
 - 对现有的图神经网络模型进行了详细的回顾。介绍了原始模型、它的变体和几个通用框架。研究了这一领域的各种模型，并在不同的模型中提供了一个统一的表示方法来实现不同的传播步骤。
 - 将应用场景分为结构化场景、非结构化场景和其他场景。
 - 提出了四个有待进一步研究的问题。
-### A2. [SEMI-SUPERVISED CLASSIFICATION WITH GRAPH CONVOLUTIONAL NETWORKS](sources/papers/GCN/README.md)：2017/节点分类
+## 谱域卷积
+### [Spectral Networks and Deep Locally Connected Networks on Graphs](sources/papers//README.md)：NIPS2014
+### [SEMI-SUPERVISED CLASSIFICATION WITH GRAPH CONVOLUTIONAL NETWORKS](sources/papers/GCN/README.md)：2017/节点分类
+## 空域卷积
+### [](sources/papers//README.md)：
+## 注意力
+### [](sources/papers//README.md)：
+## 门控
+### [](sources/papers//README.md)：
+## 跳跃连接
+### [](sources/papers//README.md)：
 ## 点云
-### B1. [PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation](sources/papers/PointNet/README.md)：2016/分类/部件分割/语义分割
+### [PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation](sources/papers/PointNet/README.md)：2016/分类/部件分割/语义分割
 - 设计了一种新的直接计算点云的神经网络，它很好地考虑了输入点的排列不变性。
 - 利用对称函数（本文利用MaxPooling）获取具有排列不变性的全局特征。
 - 使用T-Net提取全局信息，对点云施加线性变换，提供对点云旋转平移等变换的不变形。
-### B2. [PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space](sources/papers/PointNet++/README.md)：2017/分类/部件分割/语义分割
+### [PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space](sources/papers/PointNet++/README.md)：2017/分类/部件分割/语义分割
 - 类比2D图像领域的CNN，利用FPS、KNN和PointNet设计3D卷积模块使得模型能够获取局部语义信息，提高模型鲁棒性
 - 利用多尺度/多分辨率特征级联提取局部特征，缓解点云密度不均问题
 # 相关资料
