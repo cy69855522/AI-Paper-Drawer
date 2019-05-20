@@ -51,6 +51,16 @@
   
   ![](连续谱.jpg)
   
+  - 欧拉公式（在复平面统一三角函数，可由麦克劳林展开得到）
+  
+  ![](欧拉公式.png)
+  
+  - 傅里叶变换/逆变换公式
+  
+  ![](公式.png)
+  
+  f(x)为原函数，w为频率，F(w)为f(x)的频谱（傅里叶变换），e^iwt是正交基，F(w)是关于f(t)和w的函数即f(t)在以w为频率的正交基上的系数。F(w)是复平面上的一组向量。关于f(x)的F(w)的推导，涉及到｛函数向量，函数向量的点积等｝，可参考 [无限维的希尔伯特空间](https://ccjou.wordpress.com/2009/08/18/%E5%BE%9E%E5%B9%BE%E4%BD%95%E5%90%91%E9%87%8F%E7%A9%BA%E9%96%93%E5%88%B0%E5%87%BD%E6%95%B8%E7%A9%BA%E9%96%93/)
+  
 - Laplacian矩阵
   Laplacian矩阵的形式决定了特征传播的贡献权重。拉普拉斯矩阵一般有以下三种（A为邻接矩阵，D为度矩阵）：
   
@@ -106,11 +116,13 @@ GCN的损失函数同样是交叉熵函数，与NN的区别只是在于计算损
 - 牛顿—莱布尼茨公式 → 泰勒多项式 → 麦克劳林公式 → 欧拉公式 → 傅里叶变换 → GCN
 ## 参考
 - [傅里叶变换通俗讲解](https://www.cnblogs.com/h2zZhou/p/8405717.html)
-- [【知乎】经典半监督图卷积神经网络Semi-GCN解读](https://zhuanlan.zhihu.com/p/58178060)
+- [经典半监督图卷积神经网络Semi-GCN解读](https://zhuanlan.zhihu.com/p/58178060)
 - [拉普拉斯矩阵百度百科](https://www.baidu.com/link?url=JIdfpekQVVcTu_g9Ow2_H_NVnQb0sGuytxo3LbCKO_k42YJuKdrAgdmLZMTjXcljR577ui4NrYSVI9DumUkh6GVuK0otPCrDpATBz1kJ9F42tYBMzEEBpm8_MlDnNWk3D1-lV-XptefSNYqDonLrp_&wd=&eqid=e513fd7300045e81000000065cdac6ec)
 - [译文](https://blog.csdn.net/w986284086/article/details/80270653)
 - [阅读笔记](https://zhuanlan.zhihu.com/p/31067515)
-- [【知乎】从空域角度看待图卷积](https://www.zhihu.com/question/54504471/answer/611222866)
+- [从空域角度看待图卷积](https://www.zhihu.com/question/54504471/answer/611222866)
+- [欧拉公式推导](https://blog.csdn.net/yesyes120/article/details/81156295)
+- [傅里叶变换推导](https://www.matongxue.com/madocs/712.html)
 ## 提问
 1. 拉普拉斯矩阵中为什么一阶邻域节点是负值？
 2. 
