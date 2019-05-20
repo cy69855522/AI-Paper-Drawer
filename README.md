@@ -82,6 +82,7 @@ This project aims to collect all knowledge points related to graph neural networ
 ### [Spectral Networks and Deep Locally Connected Networks on Graphs](sources/papers//README.md)：NIPS 2014
 ### [Semi-Supervised Classification with Graph Convolutional Networks](sources/papers/GCN/README.md)：ICLR 2017/节点分类
 ## 空域卷积
+### [Diffusion-convolutional neural networks](sources/papers//README.md)：NIPS 2016
 ### [Inductive Representation Learning on Large Graphs](sources/papers//README.md)：
 ## 注意力
 ### [Graph Attention Networks](sources/papers//README.md)：
