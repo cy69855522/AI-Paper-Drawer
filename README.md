@@ -74,25 +74,25 @@ This project aims to collect all knowledge points related to graph neural networ
 
 # 论文要点解析
 ## 综述
-### [Graph Neural Networks: A Review of Methods and Applications](sources/papers/1/README.md)：2018/综述
+### [Graph Neural Networks: A Review of Methods and Applications](sources/papers/1/README.md)：2018
 - 对现有的图神经网络模型进行了详细的回顾。介绍了原始模型、它的变体和几个通用框架。研究了这一领域的各种模型，并在不同的模型中提供了一个统一的表示方法来实现不同的传播步骤。
 - 将应用场景分为结构化场景、非结构化场景和其他场景。
 - 提出了四个有待进一步研究的问题。
 ## 谱域卷积
 ### [Spectral Networks and Deep Locally Connected Networks on Graphs](sources/papers//README.md)：NIPS 2014
 ### [Semi-Supervised Classification with Graph Convolutional Networks](sources/papers/GCN/README.md)：ICLR 2017/节点分类
-### [Wavelets on graphs via spectral graph theory](sources/papers//README.md)
+### [Wavelets on graphs via spectral graph theory](sources/papers//README.md)：2011
 ## 空域卷积
 ### [Diffusion-convolutional neural networks](sources/papers//README.md)：NIPS 2016
-### [Inductive Representation Learning on Large Graphs](sources/papers//README.md)：
-### [Molecular graph convolutions: moving beyond fingerprints](sources/papers//README.md)：
-### [Geometric deep learning on graphs and manifolds using mixture model CNNs](sources/papers//README.md)：
+### [Inductive Representation Learning on Large Graphs](sources/papers//README.md)：NIPS 2017
+### [Molecular graph convolutions: moving beyond fingerprints](sources/papers//README.md)：2016
+### [Geometric deep learning on graphs and manifolds using mixture model CNNs](sources/papers//README.md)：CVPR 2017
 ## 注意力
-### [Graph Attention Networks](sources/papers//README.md)：
+### [Graph Attention Networks](sources/papers//README.md)：ICLR 2018
 ## 门控
-### [Gated Graph Sequence Neural Networks](sources/papers//README.md)：
+### [Gated Graph Sequence Neural Networks](sources/papers//README.md)：2016
 ## 跳跃连接
-### [Semi-supervised User Geolocation via Graph Convolutional Networks](sources/papers//README.md)：
+### [Semi-supervised User Geolocation via Graph Convolutional Networks](sources/papers//README.md)：ACL 2018
 ## 点云
 ### [PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation](sources/papers/PointNet/README.md)：CVPR 2017/分类/部件分割/语义分割
 - 设计了一种新的直接计算点云的神经网络，它很好地考虑了输入点的排列不变性。
