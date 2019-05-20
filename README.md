@@ -64,13 +64,13 @@ This project aims to collect all knowledge points related to graph neural networ
 ## 7. 图模型和概率图模型有什么区别？
 
 ## 8. 图结构的数据如何绘制出来？
-![](sources/绘图.png)
-
 - [Force-Directed Graph](https://observablehq.com/@d3/force-directed-graph?tdsourcetag=s_pcqq_aiomsg)
 
-![](sources/可视化2.png)
+  ![](sources/可视化1.png)
 
 - [NetworkGraph](https://github.com/iaboaix/NetworkGraph)
+
+  ![](sources/可视化2.png)
 
 # 论文要点解析
 ## 综述
