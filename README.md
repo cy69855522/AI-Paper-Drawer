@@ -1,4 +1,4 @@
-# 🌌 What-Is-Graph-Neural-Network?
+# :dizzy: What-Is-Graph-Neural-Network?
 This project aims to collect all knowledge points related to graph neural network (basic knowledge, key points analysis of the paper, etc.).
 # 前言
 - 有关图网络的中文资料太少了 😐 本项目意在收集所有与图神经网络有关的知识点（基础知识、论文要点解析等）。🌴独木不成林，独林不成森。如果您有想要分享的相关知识点或论文要点概括（[解析参考模板](sources/papers/README.md)），欢迎 fork 或 直接发 issue，可提供昵称与联络方式，所有被收录的知识点整理或解析提供者将被记录在文末，整理资料时请一并提供引文出处。能力有限，无法保证所收录内容的绝对准确性，如有疑问或指教，期待与您 issue 相见 ⛄。
