@@ -81,15 +81,18 @@ This project aims to collect all knowledge points related to graph neural networ
 ## 谱域卷积
 ### [Spectral Networks and Deep Locally Connected Networks on Graphs](sources/papers//README.md)：NIPS 2014
 ### [Semi-Supervised Classification with Graph Convolutional Networks](sources/papers/GCN/README.md)：ICLR 2017/节点分类
+### [Wavelets on graphs via spectral graph theory](sources/papers//README.md)
 ## 空域卷积
 ### [Diffusion-convolutional neural networks](sources/papers//README.md)：NIPS 2016
 ### [Inductive Representation Learning on Large Graphs](sources/papers//README.md)：
+### [Molecular graph convolutions: moving beyond fingerprints](sources/papers//README.md)：
+### [Geometric deep learning on graphs and manifolds using mixture model CNNs](sources/papers//README.md)：
 ## 注意力
 ### [Graph Attention Networks](sources/papers//README.md)：
 ## 门控
 ### [Gated Graph Sequence Neural Networks](sources/papers//README.md)：
 ## 跳跃连接
-### [](sources/papers//README.md)：
+### [Semi-supervised User Geolocation via Graph Convolutional Networks](sources/papers//README.md)：
 ## 点云
 ### [PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation](sources/papers/PointNet/README.md)：CVPR 2017/分类/部件分割/语义分割
 - 设计了一种新的直接计算点云的神经网络，它很好地考虑了输入点的排列不变性。
