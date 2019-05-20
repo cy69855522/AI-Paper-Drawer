@@ -102,6 +102,8 @@ GCN的损失函数同样是交叉熵函数，与NN的区别只是在于计算损
 - 
 ### Drawbacks
 - 
+## 其他
+- 牛顿—莱布尼茨公式 → 泰勒多项式 → 麦克劳林公式 → 欧拉公式 → 傅里叶变换 → GCN
 ## 参考
 - [傅里叶变换通俗讲解](https://www.cnblogs.com/h2zZhou/p/8405717.html)
 - [【知乎】经典半监督图卷积神经网络Semi-GCN解读](https://zhuanlan.zhihu.com/p/58178060)
