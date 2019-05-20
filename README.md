@@ -80,7 +80,7 @@ This project aims to collect all knowledge points related to graph neural networ
 - 提出了四个有待进一步研究的问题。
 ## 谱域卷积
 ### [Spectral Networks and Deep Locally Connected Networks on Graphs](sources/papers//README.md)：NIPS 2014
-### [SEMI-SUPERVISED CLASSIFICATION WITH GRAPH CONVOLUTIONAL NETWORKS](sources/papers/GCN/README.md)：ICLR 2017/节点分类
+### [Semi-Supervised Classification with Graph Convolutional Networks](sources/papers/GCN/README.md)：ICLR 2017/节点分类
 ## 空域卷积
 ### [Inductive Representation Learning on Large Graphs](sources/papers//README.md)：
 ## 注意力
