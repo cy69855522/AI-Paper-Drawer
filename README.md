@@ -51,7 +51,7 @@
 
 # RL 强化学习
 
-# GANS 生成式对抗
+# GANs 生成式对抗
 
 # Others 其他
 
