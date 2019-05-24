@@ -48,3 +48,6 @@
 # NLP
 
 # Others
+
+# 其他
+- 想学 🐍 Python？欢迎光临[ LeetCode最短Python题解 ](https://github.com/cy69855522/Shortest-LeetCode-Python-Solutions)，和我们深入探索 Python 特性。
