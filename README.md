@@ -33,9 +33,9 @@
 独木不成林，独林不成森 🌴。参加本活动意味着**以一篇论文换取多篇论文的深度专人解析**，希望所有加组成员各取所需，共同进步。
 拒绝伸手党，论文共读讨论组期待您的到来~ ⛄
 
-# Graph
+# Graph 图网络
 
-# CV
+# CV 计算机视觉
 ## 2017
 ### [【CVPR】](https://arxiv.org/abs/1612.00593) PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation
 ![](drawer/PointNet.png)
@@ -45,11 +45,15 @@
   - 语义分割：在每个升维后的点特征向量（1024维）后拼接上全局特征，再使用单一感受野的卷积降维对每个点做分类。
 - T-Net：使用如上操作提取固定多个全局特征构成变换矩阵，左乘点云数据施加线性变换，增加对点云刚性变换的鲁棒性。
 
-# NLP
+# NLP 自然语言处理
 
-# Recommendation
+# Recommendation 推荐系统
 
-# Others
+# RL 强化学习
+
+# GANS 生成式对抗
+
+# Others 其他
 
 # 其他
 - 想学 🐍 Python？欢迎光临[ LeetCode最短Python题解 ](https://github.com/cy69855522/Shortest-LeetCode-Python-Solutions)，和我们深入探索 Python 特性。
