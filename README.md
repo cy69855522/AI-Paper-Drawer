@@ -1,5 +1,5 @@
 # 🗃 AI-Paper-Drawer
-人工智能论文关键点概括集结。This project aims to collect key points of AI papers. 扫码加入QQ交流群 ↓
+人工智能论文关键点概括集结。This project aims to collect key points of AI papers. 扫码加入QQ交流群832405795 ↓
 
 
 ![](drawer/home.png)
