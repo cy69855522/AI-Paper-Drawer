@@ -11,7 +11,7 @@
 
 # CV
 ## 2017
-### [【CVPR】](https://www.baidu.com/link?url=Zsy-h1LM9fRiz35FT-52Idy6WOj71M7f1JuOQOgS39SpHfUT3GdN4b_Rn2tUHS-o&wd=&eqid=983bdb3200022854000000065ce7f5eb) PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation
+### [【CVPR】](https://arxiv.org/abs/1612.00593) PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation
 ![](drawer/PointNet.png)
 - 点云分类/语义分割
 - 利用核长为1的卷积对每个点单独升维后使用对称函数（本文利用MaxPooling）获取具有输入排列不变性的全局点云特征。
