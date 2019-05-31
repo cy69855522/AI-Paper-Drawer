@@ -35,12 +35,18 @@
 拒绝伸手党，论文共读讨论组期待您的到来~ ⛄
 
 # Graph 图推理
+## 2018
+[【CVPR】](https://engineering.purdue.edu/~jshan/publications/2018/Lei%20Wang%20Graph%20Attention%20Convolution%20for%20Point%20Cloud%20Segmentation%20CVPR2019.pdf) Graph Attention Convolution for Point Cloud Segmentation
+![](drawer/GACNet.png)
+- 点云语义分割
+- 本文引入注意力机制解决图卷积各向同性问题，将离散卷积核更改为相对位置和特征差分的函数，并利用softmax做归一化
+- 语义分割：堆砌FPS采样后的GAC层进行下采样，上采样时使用NIN卷积对采样点降维和特征插值计算非采样点
 
 # CV 计算机视觉
 ## 2017
 ### [【CVPR】](https://arxiv.org/abs/1612.00593) PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation
 ![](drawer/PointNet.png)
-- 点云分类/语义分割
+- 点云分类/点云语义分割
 - 本文开创 DL 在无序点云上识别的先河，利用核长为1的卷积对每个点单独升维后使用对称函数（本文利用MaxPooling）获取具有输入排列不变性的全局点云特征。
   - 分类：使用全连接网络对全局特征降维至类别数。
   - 语义分割：在每个升维后的点特征向量（1024维）后拼接上全局特征，再使用单一感受野的卷积降维对每个点做分类。
