@@ -39,7 +39,7 @@
 ### [【CVPR】](https://engineering.purdue.edu/~jshan/publications/2018/Lei%20Wang%20Graph%20Attention%20Convolution%20for%20Point%20Cloud%20Segmentation%20CVPR2019.pdf) Graph Attention Convolution for Point Cloud Segmentation
 ![](drawer/GACNet.png)
 - 点云语义分割
-- 本文引入注意力机制解决图卷积各向同性问题，将离散卷积核更改为相对位置和特征差分的函数，并利用softmax做归一化
+- 本文引入注意力机制解决图卷积各向同性问题，避免特征污染。将离散卷积核更改为相对位置和特征差分的函数，并利用softmax做归一化
 - 语义分割：堆砌FPS采样后的GAC层进行下采样，上采样时使用NIN卷积对采样点降维和特征插值计算非采样点
 
 # CV 计算机视觉
