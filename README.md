@@ -36,6 +36,11 @@
 
 # Graph 图推理
 ## 2018
+### [【CVPR】](http://openaccess.thecvf.com/content_cvpr_2018/papers/Shen_Mining_Point_Cloud_CVPR_2018_paper.pdf) Mining Point Cloud Local Structures by Kernel Correlation and Graph Pooling
+![](drawer/KCNet.png)
+- 作者提出俩个方法以小成本提高PointNet效果
+  - 作者将点集卷积核定义为一组可学习的3D点，它们根据由核相关性测量的几何关系共同响应一组相邻数据点，改编自点云配准的相似性技术。
+  - 第二个利用局部高维特征和结构，通过在固定球半径内逐通道 Mean/Max Pooling，在最近邻图上获得局部特征。
 ### [【CVPR】](https://engineering.purdue.edu/~jshan/publications/2018/Lei%20Wang%20Graph%20Attention%20Convolution%20for%20Point%20Cloud%20Segmentation%20CVPR2019.pdf) Graph Attention Convolution for Point Cloud Segmentation
 ![](drawer/GACNet.png)
 - 点云语义分割
