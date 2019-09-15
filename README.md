@@ -12,7 +12,7 @@
 # 💫 Graph 图推理
 ## 点云语义分割
 ### [【2017 CVPR】](https://arxiv.org/abs/1612.00593) PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation
-- *动机：*构造具有排列不变性的神经网络
+- `动机：`构造具有排列不变性的神经网络
 - 本文开创 DL 在无序点云上识别的先河，利用核长为1的卷积核对每个点单独升维后使用对称函数（+、max 等）获取具有输入排列不变性的全局点云特征
 ### [【2018 CVPR】](http://openaccess.thecvf.com/content_cvpr_2018/papers/Shen_Mining_Point_Cloud_CVPR_2018_paper.pdf) Mining Point Cloud Local Structures by Kernel Correlation and Graph Pooling
 - **动机：**推广卷积到三维离散点云
