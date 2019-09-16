@@ -4,7 +4,7 @@
 
 ![](drawer/home.png)
 
-此 repo 旨在记录各 AI 论文的精简概括，以便大家更好地了解不同邻域的发展脉络。
+此 repo 旨在记录各 AI 论文具有启发性的核心思想。
 
 # 子抽屉
 [图神经网络](图网络专区.md)
@@ -24,7 +24,8 @@
 # 🖼 CV 计算机视觉
 ## 卷积演变
 ### [【2019 CVPR】](https://arxiv.org/abs/1904.05049v3) Drop an Octave: Reducing Spatial Redundancy in Convolutional Neural Networks with Octave Convolution
-- `动机：`
+- `动机：缓解卷积层在特征图空间频率的冗余`
+- 将卷积通道划分为俩个部分，高分辨率通道存储高频特征，低分辨率通道存储低频特征
 
 # 📜 NLP 自然语言处理
 
