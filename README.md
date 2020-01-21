@@ -10,6 +10,8 @@
 [图神经网络](图网络专区.md)
 
 # 💫 Graph 图网络
+## 图数据
+### [【2016 ICLR】](https://arxiv.org/pdf/1511.05493.pdf) GATED GRAPH SEQUENCE NEURAL NETWORKS
 ## 点云语义分割
 ### [【2017 CVPR】](https://arxiv.org/abs/1612.00593) PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation
 - `动机：构造具有排列不变性的神经网络`
