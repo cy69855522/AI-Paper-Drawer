@@ -1,6 +1,10 @@
 # [Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation](https://arxiv.org/abs/1406.1078)
 
 ## 模型流程
+### GRU结构
+![](gru2.jpg)
+- `GRU`的输入为`当前时间步的输入x^t`和`上一个节点传递下来的隐状态h^(t-1)`，输出为`当前时间步的输出y^t`和`传递给下一个节点的隐状态h^t`
+### 计算方法
 ![](gru1.png)
 - 
 ## 要点记录
