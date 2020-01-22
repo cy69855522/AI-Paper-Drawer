@@ -1,6 +1,7 @@
 # [Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation](https://arxiv.org/abs/1406.1078)
 
 ## 模型流程
+![](gru1.png)
 - 
 ## 要点记录
 ### What
