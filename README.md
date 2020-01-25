@@ -12,8 +12,8 @@
 # 💫 Graph 图网络
 ## 图数据
 ### [【2016 ICLR】](https://arxiv.org/pdf/1511.05493.pdf) [✒](sources/papers/57514455543057425140583043554145555E5355305E554542515C305E5544475F425B43BFE673402/README.md) GATED GRAPH SEQUENCE NEURAL NETWORKS
-- `动机：`
-- 
+- `动机：为了使GNN能够用于处理序列问题`
+- 图神经网络的一种，以每一次局部传播的结果作为输入，网络层数即传播次数固定，层与层之间的信息传递手法利用GRU的门控机制
 ## 点云语义分割
 ### [【2017 CVPR】](https://arxiv.org/abs/1612.00593) PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation
 - `动机：构造具有排列不变性的神经网络`
