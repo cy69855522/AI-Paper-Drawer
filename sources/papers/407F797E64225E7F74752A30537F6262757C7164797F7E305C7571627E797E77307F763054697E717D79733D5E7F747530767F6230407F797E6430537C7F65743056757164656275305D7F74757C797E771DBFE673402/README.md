@@ -9,6 +9,9 @@
 - Adaptive Feature Aggregation (AFA) 自适应地聚合每个节点的特征
 - 全连接分类器
 ### 自相关
+![](f1.png)
+![](f1.png)
+![](f1.png)
 - 
 ### 局部相关
 ### 非局部相关
