@@ -5,6 +5,8 @@
 ## 模型流程
 ![](p2n1.png)
 - 首先采用`U-Net`结构的`X-Conv`作为`Feature Extraction`层提取每个点的高级表征`V^0`
+- Dynamic Node Correlation (DNC) 模块获取节点的自相关、局部相关、非局部相关信息
+- Adaptive Feature Aggregation (AFA) 自适应地聚合每个节点的特征
 ## 要点记录
 ### What
 1. 
