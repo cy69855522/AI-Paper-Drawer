@@ -54,7 +54,7 @@
 
 # 🎯 知识点速记
 ## 损失函数
-### Cross Entropy [✒](sources/papers/53627F636330557E64627F6069BFE673402/README.md) 
+###  [✒](sources/papers/53627F636330557E64627F6069BFE673402/README.md) Cross Entropy
 - 交叉熵常用于分类问题，表示的是预测结果的概率分布与实际结果概率分布的差异
 
 # 其他
