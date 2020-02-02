@@ -25,5 +25,6 @@ def IIC(z, zt, C=10): # z[N, C] zt[N, C]
 - Pytorch代码
 ## 要点记录
 - `x'`可以为`x`经过数据增强后的结果，在语义分割中，`x`为某一局部感受野范围的中心像素及分类的最小单位，`x'`也可以是`x`的临近像素
-##参考
+
+## 参考
 - [CSDN 【机器学习】信息量，信息熵，交叉熵，KL散度和互信息（信息增益）](https://blog.csdn.net/haolexiao/article/details/70142571)
