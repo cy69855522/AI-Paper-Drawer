@@ -1,7 +1,7 @@
 # [Invariant Information Clustering for Unsupervised Image Classification and Segmentation](https://arxiv.org/abs/1807.06653v4)
 
 ## 背景
-- 
+- 本文主要提出一种成对损失函数，用于孪生网络进行聚类，最大化相邻样本的互信息
 ## IIC损失公式
 ![](f1.png)
 - 设`Φ`为神经网络，同时通过两个近似输入`x`和`x'`，目标为最大化俩者的互信息
