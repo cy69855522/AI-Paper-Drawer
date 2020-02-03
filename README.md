@@ -24,7 +24,7 @@
 - `动机：引入注意力机制缓解图卷积各向同性问题，避免特征污染`
 - 将离散卷积核设定为相对位置和特征差分的函数，并利用 `softmax` 做归一化
 ### [【2018 CVPR】](http://openaccess.thecvf.com/content_cvpr_2018/papers/Shen_Mining_Point_Cloud_CVPR_2018_paper.pdf) Mining Point Cloud Local Structures by Kernel Correlation and Graph Pooling
-- `动机：推广卷积到三维离散点云`
+- `动机：类比卷积局部激活性到三维离散点云核相关`
 - 类比卷积核对分布相近数据具有更高激活值的特点，构造可学习的图核，通过局部区域点的分布与图核的相似性计算激活值
 ### [【2018 CVPR】](https://arxiv.org/abs/1711.08920v2) [✒](sources/papers/43607C797E75535E5E2A30567163643057757F7D75646279733054757560305C7571627E797E77306779647830537F7E64797E657F656330523D43607C797E75305B75627E757C63BFE673402/README.md) SplineCNN: Fast Geometric Deep Learning with Continuous B-Spline Kernels
 - `动机：`
