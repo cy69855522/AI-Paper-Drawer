@@ -20,6 +20,9 @@
 ### [【2020 AAAI】](https://arxiv.org/abs/1912.10775) [✒](sources/papers/407F797E64225E7F74752A30537F6262757C7164797F7E305C7571627E797E77307F763054697E717D79733D5E7F747530767F6230407F797E6430537C7F65743056757164656275305D7F74757C797E771DBFE673402/README.md) Point2Node: Correlation Learning of Dynamic-Node for Point Cloud Feature Modeling
 - `动机：探索自我(自身特征通道)相关性、局部相关性、非局部相关性`
 - 利用`softmax`引入自身通道注意力、节点与节点间注意力。考虑节点与节点间注意力时参考“Non-Local Neural Network”做矩阵乘法构建各点间的注意力。利用门控式分权聚合代替残差连接
+### [【2019 ICCV】](https://arxiv.org/abs/1908.04512) [✒](sources/papers/597E647562607F7C7164757430537F7E667F7C6564797F7E717C305E7564677F627B6330767F6230235430407F797E6430537C7F657430457E7475626364717E74797E77BFE673402/README.md) Interpolated Convolutional Networks for 3D Point Cloud Understanding
+- `动机：利用插值解决点云数据结构的稀疏性、不规则性和无序性`
+- 
 ### [【2019 CVPR】]() [✒](sources/papers/5D7F74757C797E77305C7F73717C3057757F7D756462797330436462657364656275307F7630235430407F797E6430537C7F657463306563797E773057757F3D535E5EBFE673402/README.md) Modeling Local Geometric Structure of 3D Point Clouds using Geo-CNN
 - `动机：显式建模局部点间的几何结构`
 - 将局部点云特征提取过程按三个正交基分解，然后根据边向量与基之间的夹角对提取的特征进行聚合，鼓励网络在整个特征提取层次中保持欧氏空间的几何结构
