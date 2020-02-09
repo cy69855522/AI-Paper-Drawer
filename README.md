@@ -36,17 +36,17 @@
 - `动机：一个新的基于b样条的卷积算子，它使得计算时间独立于核大小`
 ### [【2017 CVPR】](https://arxiv.org/abs/1612.00593) ⭐ PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation
 - `动机：构造具有排列不变性的神经网络`
-- 本文开创 DL 在无序点云上识别的先河，利用核长为1的卷积核对每个点单独升维后使用**对称函数**（+、max 等）获取具有输入排列不变性的全局点云特征
+- 本文开创 DL 在无序点云上识别的先河，利用核长为1的卷积核对每个点单独升维后使用对称函数（+、max 等）获取具有输入排列不变性的全局点云特征
 # 🖼 CV 计算机视觉
 ## 卷积演变
 ### [【2019 CVPR】](https://arxiv.org/abs/1904.05049v3) Drop an Octave: Reducing Spatial Redundancy in Convolutional Neural Networks with Octave Convolution
 - `动机：缓解卷积层在特征图空间频率的冗余`
-- 将卷积通道划分为俩个部分，高分辨率通道存储高频特征，低分辨率通道存储低频特征，提高**效率**
+- 将卷积通道划分为俩个部分，高分辨率通道存储高频特征，低分辨率通道存储低频特征，提高效率
 
 # 📜 NLP 自然语言处理
 ## 循环神经网络
 ### [【2014】](https://arxiv.org/abs/1406.1078) [✒](sources/papers/5C7571627E797E773040786271637530427560627563757E647164797F7E63306563797E7730425E5E30557E737F7475623D5475737F74756230767F6230436471647963647973717C305D717378797E75304462717E637C7164797F7EBFE673402/README.md) Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation
-- 提出了`GRU`，其效果与`LSTM`相近，**效率更高**
+- 提出了`GRU`，其效果与`LSTM`相近，效率更高
 
 # 💞 Recommendation 推荐系统
 
