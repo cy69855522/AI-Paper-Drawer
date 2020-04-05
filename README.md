@@ -75,7 +75,5 @@
 ###  [✒](sources/keyPoints/53627F636330557E64627F6069BFE673402/README.md) Cross Entropy
 - 交叉熵常用于分类问题，表示的是预测结果的概率分布与实际结果概率分布的差异
 
-# ⚙ Machine Learning 传统机器学习
-
 # 其他
 - 想学 🐍 Python？欢迎光临[ LeetCode最短Python题解 ](https://github.com/cy69855522/Shortest-LeetCode-Python-Solutions)，和我们深入探索 Python 特性。
