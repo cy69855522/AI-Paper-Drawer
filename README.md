@@ -8,6 +8,10 @@
 - 点击论文标题前的超链接可访问原文
 - 点击✒可进入流程速记页面，记录核心算法公式，便于复习
 
+# 相关链接
+- 想学 🐍 Python？欢迎光临[ LeetCode最短Python题解 ](https://github.com/cy69855522/Shortest-LeetCode-Python-Solutions)，和我们深入探索 Python 特性。
+- [🚀 AI Power](https://www.aipower.xyz) 云GPU租借/出租平台：图网络的计算需要高算力支持，赶论文、拼比赛的朋友不妨了解一下~ 现在注册并绑定（参考Github）即可获得高额算力，注册不涉及个人隐私信息，可随时提现。详情请参考[AI Power指南]https://github.com/cy69855522/AI-Power）
+
 # 子抽屉
 [图神经网络](图网络专区.md)
 
@@ -75,5 +79,3 @@
 ###  [✒](sources/keyPoints/53627F636330557E64627F6069BFE673402/README.md) Cross Entropy
 - 交叉熵常用于分类问题，表示的是预测结果的概率分布与实际结果概率分布的差异
 
-# 其他
-- 想学 🐍 Python？欢迎光临[ LeetCode最短Python题解 ](https://github.com/cy69855522/Shortest-LeetCode-Python-Solutions)，和我们深入探索 Python 特性。
