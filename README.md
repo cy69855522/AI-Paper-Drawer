@@ -11,7 +11,7 @@
 # 子抽屉
 [图神经网络](图网络专区.md)
 
-# 相关链接
+## 相关链接
 - 🐍 想学Python？欢迎光临[ LeetCode最短Python题解 ](https://github.com/cy69855522/Shortest-LeetCode-Python-Solutions)，和我们深入探索 Python 特性。
 - [🚀 AI Power](https://www.aipower.xyz) 云GPU租借/出租平台：图网络的计算需要高算力支持，赶论文、拼比赛的朋友不妨了解一下~ 现在注册并绑定（参考Github）即可获得高额算力，注册不涉及个人隐私信息，可随时提现。详情请参考[AI Power指南](https://github.com/cy69855522/AI-Power）
 
