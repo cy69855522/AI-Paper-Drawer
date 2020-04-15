@@ -88,4 +88,9 @@
 ## 损失函数
 ###  [✒](sources/keyPoints/53627F636330557E64627F6069BFE673402/README.md) Cross Entropy
 - 交叉熵常用于分类问题，表示的是预测结果的概率分布与实际结果概率分布的差异
-
+## 激活函数
+### Sigmoid/Logistic
+![](sources/keyPoints/sigmoid.jpg)
+## ML模型
+### 逻辑回归
+- 以sigmoid为激活函数的单层全连接网络
