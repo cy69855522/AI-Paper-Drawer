@@ -97,6 +97,8 @@
 ## 激活函数
 ### Sigmoid/Logistic
 ![](sources/keyPoints/sigmoid.jpg)
+- y = 1/(1+e^(-x))
+- 导数 y' = y(1-y)
 ## ML模型
 ### 逻辑回归
 - 以sigmoid为激活函数的单层全连接网络
