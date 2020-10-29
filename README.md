@@ -115,5 +115,6 @@
 ### Naive Bayes 朴素贝叶斯
 ### SVM 支持向量机
 ### Decision Tree 决策树
+### Random Forest 随机森林
 ### Adaboost
 ### XGBoost
