@@ -118,7 +118,7 @@
 - 联合概率：多个事件共同发生的概率`P(A∩B)`
 - 条件概率（又称后验概率）：事件A在另外一个事件B已经发生条件下的发生概率`P(A|B)`
 - ![](sources/keyPoints/bayes.png)
-- `P(A|B) = P(A)P(B|A)/P(B)`
+- `P(A|B) = P(A∩B)/P(B) = P(A)P(B|A)/P(B)`
 ### SVM 支持向量机
 ### Decision Tree 决策树
 ### Random Forest 随机森林
