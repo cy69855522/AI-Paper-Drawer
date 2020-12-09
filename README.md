@@ -124,6 +124,8 @@
   - **已知特征B的情况下推测样本属于A的概率 = 训练集中具备特征B的样本中存在类别A的概率**
 ### SVM 支持向量机
 ### Decision Tree 决策树
+- ★构造决策树
+- 用决策树分类/回归
 ### Random Forest 随机森林
 ### Adaboost
 ### XGBoost
