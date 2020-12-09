@@ -142,6 +142,11 @@
   损失函数C'：C+α|T|，α为参数，|T|代表叶子数
 - 参考：
   - [📺B站视频](https://www.bilibili.com/video/BV1Ps411V7px?p=1)
+### Ensemble 集成学习
+- Bootstraping：有放回采样
+- Bagging：利用Bootstraping采样多次分别构造多个分类器
 ### Random Forest 随机森林
+- 样本选择（有放回）：利用Bagging构造多颗决策树投票
+- 特征选择（不放回）：选取部分特征
 ### Adaboost
 ### XGBoost
