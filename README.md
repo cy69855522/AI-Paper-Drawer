@@ -119,6 +119,7 @@
 - 条件概率（又称后验概率）：事件A在另外一个事件B已经发生条件下的发生概率`P(A|B)`
 - ![](sources/keyPoints/bayes.png)
 - `P(A|B) = P(A∩B)/P(B) = P(A)P(B|A)/P(B)`
+- 总结：`P(樱桃|圆形) = P(樱桃∩圆形) / P(圆形)`
 ### SVM 支持向量机
 ### Decision Tree 决策树
 ### Random Forest 随机森林
