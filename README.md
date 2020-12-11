@@ -145,11 +145,12 @@
   - [📺 B站·决策树与随机森林](https://www.bilibili.com/video/BV1Ps411V7px?p=1)
 ### Ensemble 集成学习
 - Bootstraping：有放回采样
-- Bagging：利用Bootstraping采样多次分别构造多个同类分类器，最后进行投票。可并行。降低了模型表现的方差。
-- Boosting：递归地构建多个同类弱分类器，每个弱分类器都修正上一次的结果。不可并行。降低了模型表现的偏差。
+- Bagging：利用Bootstraping采样多次分别构造多个同类分类器，最后进行投票。可并行。降低了模型表现的方差variance。
+- Boosting：递归地构建多个同类弱分类器，每个弱分类器都修正上一次的结果。不可并行。降低了模型表现的偏差bias。
 - Stacking：堆叠不同的模型
 - 参考：
   - ![](sources/keyPoints/bias_vars.png)
+    靶心指的是表现最好的模型
   - [📘 知乎·为什么说bagging是减少variance，而boosting是减少bias?](https://www.zhihu.com/question/26760839)
 ### Random Forest 随机森林
 - 样本选择（有放回）：利用Bagging并行构造多颗决策树投票
