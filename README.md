@@ -122,6 +122,7 @@
 - 总结：
   - `P(樱桃|圆形) = P(樱桃∩圆形) / P(圆形)`
   - **已知特征B的情况下推测样本属于A的概率 = 训练集中具备特征B的样本中存在类别A的概率**
+### PCA 主成分分析
 ### SVM 支持向量机
 ### Decision Tree 决策树
 - ★构造决策树
@@ -141,11 +142,12 @@
   - 后剪枝
   损失函数C'：C+α|T|，α为参数，|T|代表叶子数
 - 参考：
-  - [📺 B站视频](https://www.bilibili.com/video/BV1Ps411V7px?p=1)
+  - [📺 B站·决策树与随机森林](https://www.bilibili.com/video/BV1Ps411V7px?p=1)
 ### Ensemble 集成学习
 - Bootstraping：有放回采样
-- Bagging：利用Bootstraping采样多次分别构造多个分类器，最后进行投票。可并行。降低了模型表现的方差。
-- Boosting：递归地构建多个弱分类器，每个弱分类器都修正上一次的结果。不可并行。降低了模型表现的偏差。
+- Bagging：利用Bootstraping采样多次分别构造多个同类分类器，最后进行投票。可并行。降低了模型表现的方差。
+- Boosting：递归地构建多个同类弱分类器，每个弱分类器都修正上一次的结果。不可并行。降低了模型表现的偏差。
+- Stacking：堆叠不同的模型
 - 参考：
   - ![](sources/keyPoints/bias_vars.png)
   - [📘 知乎·为什么说bagging是减少variance，而boosting是减少bias?](https://www.zhihu.com/question/26760839)
@@ -153,4 +155,11 @@
 - 样本选择（有放回）：利用Bagging并行构造多颗决策树投票
 - 特征选择（不放回）：选取部分特征
 ### Adaboost
+- 递进地组合多个弱分类器形成一个强分类器
+- 根据前一次的分类效果调整数据权重
+1. 对每个训练样本赋予相同的权重，训练第一个基分类器
+2. 根据之前的效果更新样本权重，重复此步骤多次得到多个基分类器
+3. 依据基分类器的表现，对所有基分类器的预测结果加权求和
+- 参考：
+  - [📺 B站·adaboost视频演示](https://www.bilibili.com/video/BV1fJ411277N?from=search&seid=1509457975916423108)
 ### XGBoost
