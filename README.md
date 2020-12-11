@@ -12,7 +12,7 @@
 [图神经网络](图网络专区.md)
 
 ## 相关链接
-- 🐍 想学Python？欢迎光临[ LeetCode最短Python题解 ](https://github.com/cy69855522/Shortest-LeetCode-Python-Solutions)，和我们深入探索 Python 特性。
+- [🐍 LeetCode最短Python题解 ](https://github.com/cy69855522/Shortest-LeetCode-Python-Solutions)。
 - [🚀 AI Power](https://www.aipower.xyz) 云GPU租借/出租平台：图网络的计算需要高算力支持，赶论文、拼比赛的朋友不妨了解一下~ 现在注册并绑定（参考Github）即可获得高额算力，详情请参考[AI Power指南](https://github.com/cy69855522/AI-Power)
 
 # 💫 Graph 图网络
@@ -141,12 +141,16 @@
   - 后剪枝
   损失函数C'：C+α|T|，α为参数，|T|代表叶子数
 - 参考：
-  - [📺B站视频](https://www.bilibili.com/video/BV1Ps411V7px?p=1)
+  - [📺 B站视频](https://www.bilibili.com/video/BV1Ps411V7px?p=1)
 ### Ensemble 集成学习
 - Bootstraping：有放回采样
-- Bagging：利用Bootstraping采样多次分别构造多个分类器
+- Bagging：利用Bootstraping采样多次分别构造多个分类器，最后进行投票。可并行。降低了模型表现的方差。
+- Boosting：递归地构建多个弱分类器，每个弱分类器都修正上一次的结果。不可并行。降低了模型表现的偏差。
+- 参考：
+  - ![](sources/keyPoints/bias_vars.png)
+  - [📘 知乎·为什么说bagging是减少variance，而boosting是减少bias?](https://www.zhihu.com/question/26760839)
 ### Random Forest 随机森林
-- 样本选择（有放回）：利用Bagging构造多颗决策树投票
+- 样本选择（有放回）：利用Bagging并行构造多颗决策树投票
 - 特征选择（不放回）：选取部分特征
 ### Adaboost
 ### XGBoost
