@@ -181,3 +181,6 @@
   - GBDT将LossFunction泰勒展开到一阶，而XGBoost将目标函数泰勒展开到了二阶
   - GBDT是给新的基模型寻找新的拟合标签（前面加法模型的负梯度），而XGBoost是给新的基模型寻找新的目标函数（目标函数关于新的基模型的二阶泰勒展开）。换句话说，GBDT要求新模型最终预测值拟合负梯度，而XGBoost直接利用这种要求来构建最优决策树
   - XGBoost加入了叶子权重的L2正则化项
+- 参考：
+  - [XGBoost原理概述 XGBoost和GBDT的区别](http://www.elecfans.com/d/995278.html)
+  - [机器学习算法总结(四)——GBDT与XGBOOST](https://www.cnblogs.com/jiangxinyang/p/9248154.html)
