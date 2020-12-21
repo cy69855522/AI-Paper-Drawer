@@ -195,3 +195,8 @@
 - 参考：
   - [XGBoost原理概述 XGBoost和GBDT的区别](http://www.elecfans.com/d/995278.html)
   - [机器学习算法总结(四)——GBDT与XGBOOST](https://www.cnblogs.com/jiangxinyang/p/9248154.html)
+## 深度学习
+### RNN
+### LSTM
+### GRU
+### Transformer
