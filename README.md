@@ -75,6 +75,12 @@
 # ⚗ Others 其他
 
 # 🎯 知识点速记
+## 微积分
+### 链式法则
+- `f(g(x))' = f'g'`
+- `f(g(x),z(x))' = f'g' + f'z'`
+- 参考：
+  - [📘 知乎◽深度学习数学基础之链式法则](https://zhuanlan.zhihu.com/p/113112455)
 ## 线性代数
 ### [✒](sources/keyPoints/AEC8C5E3BFE673402/README.md) 矩阵
 - 矩阵代表一种对空间内所有点的线性变换，即线性地改变空间的标准正交基
@@ -185,8 +191,8 @@
   - 仿照梯度下降原理，考虑：`Loss=LossFunction(之前的模型f(x))`，那么要最小化损失，现在可以引入一个新的模型g，使得`Loss=LossFunction(之前的模型f(x)+新模型g(x))`最小。
   - 根据梯度下降算法，可以让g(x)为f(x)的负梯度，通过不断迭代来逼近最小Loss，因此GBDT以f(x)的负梯度作为标签训练新的模型g
 - 参考：
-  - [📕 CSDN◽Adaboost、GBDT与XGBoost的区别]
-  - [📘 知乎◽gbdt的残差为什么用负梯度代替？]
+  - [📕 CSDN◽Adaboost、GBDT与XGBoost的区别](https://blog.csdn.net/hellozhxy/article/details/82143554)
+  - [📘 知乎◽gbdt的残差为什么用负梯度代替？](https://www.zhihu.com/question/63560633/answer/581670747)
 ### XGBoost
 - 类似于GBDT，区别为：
   - GBDT将LossFunction泰勒展开到一阶，而XGBoost将目标函数泰勒展开到了二阶
@@ -196,7 +202,11 @@
   - [XGBoost原理概述 XGBoost和GBDT的区别](http://www.elecfans.com/d/995278.html)
   - [机器学习算法总结(四)——GBDT与XGBOOST](https://www.cnblogs.com/jiangxinyang/p/9248154.html)
 ## 深度学习
+- 为方便表示，设`L`为线性层，`MLP`为多层感知机，`σ`为激活函数，`S^t`为t时隐状态，X为输入，Y为输出
 ### RNN
+- `S^t = σ(L(S^(t-1)) + L(X^t))`
+- `Y^t = σ(L(S^t))`
 ### LSTM
+
 ### GRU
 ### Transformer
