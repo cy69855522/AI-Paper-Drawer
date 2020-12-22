@@ -211,5 +211,12 @@
   - 根据[链式法则](链式法则)，W的梯度可以分解为多个时间步上梯度的累和，越远的时间步梯度需要连乘越多次W2σ'。连乘相同W多次，W过小容易导致梯度弥散，过大容易导致梯度爆炸
 ### LSTM
 ![](sources/keyPoints/lstm_gru.jpg)
+- 拼接H^(t-1)和x生成细胞C^~和三个门，遗忘门过滤C^(t-1)，输入门过滤C^~，输出门过滤新的细胞状态`C^t = tanh(过滤后的C^(t-1) + 过滤后的C^~)`来生成隐向量H^t
+- `forget_gate = sigmoid(W1·X^t + W2·H^(t-1))`
+- `input_gate = sigmoid(W3·X^t + W4·H^(t-1))`
+- `C^~ = tanh(W5·X^t + W6·H^(t-1))`
+- `output_gate = sigmoid(W7·X^t + W8·H^(t-1))`
+- `C^t = forget_gate ⊙ C^(t-1) + input_gate ⊙ C^~`
+- `H^t = output_gate ⊙ tanh(C^t)`
 ### GRU
 ### Transformer
