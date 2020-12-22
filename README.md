@@ -211,13 +211,26 @@
   - 根据[链式法则](链式法则)，W的梯度可以分解为多个时间步上梯度的累和，越远的时间步梯度需要连乘越多次W2σ'。连乘相同W多次，W过小容易导致梯度弥散，过大容易导致梯度爆炸
 ### LSTM
 ![](sources/keyPoints/lstm_gru.jpg)
-- 拼接`H^(t-1)`和x生成细胞`C^~`和三个门，遗忘门过滤`C^(t-1)`，输入门过滤`C^~`，输出门过滤新的细胞状态`C^t = tanh(过滤后的C^(t-1) + 过滤后的C^~)`来生成隐向量`H^t`
-- `forget_gate = sigmoid(W1·X^t + W2·H^(t-1))`
+- 拼接`H^(t-1)`和`X`生成细胞状态`C^~`和三个门，遗忘门过滤`C^(t-1)`，输入门过滤`C^~`，输出门过滤新的细胞状态`C^t = tanh(过滤后的C^(t-1) + 过滤后的C^~)`来生成隐向量`H^t`
 - `input_gate = sigmoid(W3·X^t + W4·H^(t-1))`
 - `C^~ = tanh(W5·X^t + W6·H^(t-1))`
-- `output_gate = sigmoid(W7·X^t + W8·H^(t-1))`
+- `forget_gate = sigmoid(W1·X^t + W2·H^(t-1))`
 - `C^t = forget_gate ⊙ C^(t-1) + input_gate ⊙ C^~`
+- `output_gate = sigmoid(W7·X^t + W8·H^(t-1))`
 - `H^t = output_gate ⊙ tanh(C^t)`
-- 与RNN的核心不同：`C^~`就是RNN中的`State`，相当于把`State`做了个门控式的残差连接
-### GRU
+- 与RNN的核心不同：
+  - `C^~`就是RNN中的`State`，相当于把`State`做了个门控式的残差连接
+  - 对`C^t`也做了一个门控来生成最后的输出`H^t`
+### GRU [✒](sources/papers/5C7571627E797E773040786271637530427560627563757E647164797F7E63306563797E7730425E5E30557E737F7475623D5475737F74756230767F6230436471647963647973717C305D717378797E75304462717E637C7164797F7EBFE673402/README.md)
+- 拼接`H^(t-1)`和`X`生成隐状态`H^~`和俩个门，重置门在生成隐状态`H^~`时过滤上一次的隐状态`H^(t-1)`，更新门控制隐状态的残差连接，连接后直接作为新的隐向量
+- `reset_gate = sigmoid(W1·X^t + W2·H^(t-1))`
+- `H^~ = tanh(W3·X^t + reset_gate ⊙ W4·H^(t-1))`
+- `update_gate = sigmoid(W5·X^t + W6·H^(t-1))`
+- `H^t = (1 - update_gate) ⊙ H^(t-1) + update_gate ⊙ H^~`
+- 与RNN的核心不同：
+  - `H^~`就是RNN中的`State`，生成`State`时对`H^(t-1)`做了一个门控，同LSTM做了一个残差连接
+  - 隐状态直接作为输出
+- 与LSTM的核心不同：
+  - 做残差的时候用更新门代替了输入门和遗忘门
+  - 把输出门提前了作为上一次状态的过滤
 ### Transformer
