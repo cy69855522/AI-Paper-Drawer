@@ -218,5 +218,6 @@
 - `output_gate = sigmoid(W7·X^t + W8·H^(t-1))`
 - `C^t = forget_gate ⊙ C^(t-1) + input_gate ⊙ C^~`
 - `H^t = output_gate ⊙ tanh(C^t)`
+- 与RNN的核心不同：`C^~`就是RNN中的`State`，相当于把`State`做了个门控式的残差连接
 ### GRU
 ### Transformer
