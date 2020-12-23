@@ -101,21 +101,29 @@
 - 时间复杂度：`O(NlogN)`
 ### 归并排序
 - 把数据递归地对半分，分到不能分的时候对半组合并排序
-- 数据复杂度：`O(NlogN)`，将长度为`N`的序列对半分割直到只有一个数据为止时，可以分成`log2(N)`行，每行排序耗费`N`次比较。也就是说，总的运行时间为 O(NlogN)
+- 时间复杂度：`O(NlogN)`，将长度为`N`的序列对半分割直到只有一个数据为止时，可以分成`log2(N)`行，每行排序耗费`N`次比较。也就是说，总的运行时间为 O(NlogN)
 - ```python
   def merge(num: list):
-    if len(num) > 1:
-        a = []
-        a1, a2 = merge(num[:(half:=len(num)//2)]), merge(num[half:])
-        while a1 and a2:
-            if a1[0] > a2[0]: a1, a2 = a2, a1
-            a.append(a1[0])
-            a1 = a1[1:]
-        return a + a1 + a2
-    else:
-        return num
+    if len(num) < 1: return num
+    a = []
+    a1, a2 = merge(num[:(half:=len(num)//2)]), merge(num[half:])
+    while a1 and a2:
+        if a1[0] > a2[0]: a1, a2 = a2, a1
+        a.append(a1[0])
+        a1 = a1[1:]
+    return a + a1 + a2
   ```
 ### 快速排序
+- 选择一个基准值`m`，然后把数据划分为比`m`小和不小于`m`的俩个部分。递归这两个部分，最后整个数组就是从小到大了
+- 时间复杂度：平均`O(NlogN)`，最差情况（每次m都选到极端数字，需要递归O(N)次）`O(N^2)`
+- ```python
+  def quick(num: list):
+    if len(num) < 1: return num
+    m, num = num[0], num[1:]
+    l = quick([n for n in num if n < m])
+    r = quick([n for n in num if n >= m])
+    return l + [m] + r
+  ```
 ## 数组查找
 ### 二分查找
 ## 图的搜索
