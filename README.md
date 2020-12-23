@@ -102,11 +102,11 @@
 ### 归并排序
 - 把数据递归地对半分，分到不能分的时候对半组合并排序
 - 数据复杂度：`O(NlogN)`，将长度为`N`的序列对半分割直到只有一个数据为止时，可以分成`log2(N)`行，每行排序耗费`N`次比较。也就是说，总的运行时间为 O(NlogN)
-- ```
+- ```python
   def merge(num: list):
     if len(num) > 1:
         a = []
-        a1, a2 = merge(num[:len(num)//2]), merge(num[len(num)//2:])
+        a1, a2 = merge(num[:(half:=len(num)//2)]), merge(num[half:])
         while a1 and a2:
             if a1[0] > a2[0]: a1, a2 = a2, a1
             a.append(a1[0])
