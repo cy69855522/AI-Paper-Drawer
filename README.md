@@ -16,6 +16,10 @@
 - [🚀 AI Power](https://www.aipower.xyz) 云GPU租借/出租平台：图网络的计算需要高算力支持，赶论文、拼比赛的朋友不妨了解一下~ 现在注册并绑定（参考Github）即可获得高额算力，详情请参考[AI Power指南](https://github.com/cy69855522/AI-Power)
 
 # 💫 Graph 图网络
+
+<details>
+  <summary>点击展开折叠</summary>
+	
 ## 图数据
 ### [【2016 ICLR】](https://arxiv.org/pdf/1511.05493.pdf) [✒](sources/papers/57514455543057425140583043554145555E5355305E554542515C305E5544475F425B43BFE673402/README.md) GATED GRAPH SEQUENCE NEURAL NETWORKS
 - `动机：为了使GNN能够用于处理序列问题`
@@ -47,16 +51,31 @@
 ### [【2017 CVPR】](https://arxiv.org/abs/1612.00593) ⭐ PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation
 - `动机：构造具有排列不变性的神经网络`
 - 本文开创 DL 在无序点云上识别的先河，利用核长为1的卷积核对每个点单独升维后使用对称函数（+、max 等）获取具有输入排列不变性的全局点云特征
+
+</details>
+
 # 🖼 CV 计算机视觉
+
+<details>
+  <summary>点击展开折叠</summary>
+	
 ## 卷积演变
 ### [【2019 CVPR】](https://arxiv.org/abs/1904.05049v3) Drop an Octave: Reducing Spatial Redundancy in Convolutional Neural Networks with Octave Convolution
 - `动机：缓解卷积层在特征图空间频率的冗余`
 - 将卷积通道划分为俩个部分，高分辨率通道存储高频特征，低分辨率通道存储低频特征，提高效率
 
+</details>
+
 # 📜 NLP 自然语言处理
+
+<details>
+  <summary>点击展开折叠</summary>
+	
 ## 循环神经网络
 ### [【2014】](https://arxiv.org/abs/1406.1078) [✒](sources/papers/5C7571627E797E773040786271637530427560627563757E647164797F7E63306563797E7730425E5E30557E737F7475623D5475737F74756230767F6230436471647963647973717C305D717378797E75304462717E637C7164797F7EBFE673402/README.md) Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation
 - 提出了`GRU`，其效果与`LSTM`相近，效率更高
+
+</details>
 
 # 💞 Recommendation 推荐系统
 
@@ -67,15 +86,25 @@
 # 🔘 Meta Learning 元学习
 
 # 🚥 Cluster 聚类
+
+<details>
+  <summary>点击展开折叠</summary>
+	
 ## 目标函数
 ### [【2019 ICCV】](https://arxiv.org/abs/1807.06653v4) [✒](sources/papers/597E66716279717E6430597E767F627D7164797F7E30537C6563647562797E7730767F6230457E6365607562667963757430597D71777530537C716363797679737164797F7E30717E74304375777D757E647164797F7EBFE673402/README.md) Invariant Information Clustering for Unsupervised Image Classification and Segmentation
 - `动机：提出一种新的聚类目标IIC作为端到端神经网络损失函数`
 - 以一对近似样本投入神经网络获得成对的输出，最大化俩者的互信息
 
+</details>
+
 # ⚗ Others 其他
 
 # 🎯 知识点速记
 ## 数据结构
+
+<details>
+  <summary>点击展开折叠</summary>
+	
 ### 堆
 - 二叉树结构，被用于实现**优先队列**
 - 最小的数在最上面，子结点必定大于父结点
@@ -86,7 +115,14 @@
 - 每个结点的值均大于其左子树上任意一个结点的值，小于其右子树上任意一个结点的值
 - 删除节点后，在被删除结点的左子树中寻找最大结点放上去，如果需要移动的结点还有子结点，就递归执行前面的操作
 - 平衡时时间复杂度为`o(logN)`，最坏情况下`O(N)`
+
+</details>
+
 ## 排序
+
+<details>
+  <summary>点击展开折叠</summary>
+	
 ### 冒泡排序
 - 重复“从序列右边开始比较相邻两个数字的大小，再根据结果交换两个数字的位置”，每次迭代都把最小的数字移动到最左边
 - 时间复杂度：`O(N^2)`
@@ -124,12 +160,26 @@
     r = quick([n for n in num if n >= m])
     return l + [m] + r
   ```
+
+</details>
+
 ## 数组查找
+
+<details>
+  <summary>点击展开折叠</summary>
+	
 ### 二分查找
 - 需要数组已经排好序
 - 每次都对比中间值，进而缩小一半的搜索范围
 - 时间复杂度为：`logN`
+
+</details>
+
 ## 图的搜索
+
+<details>
+  <summary>点击展开折叠</summary>
+	
 ### 最小生成树
 - 边权和最小的生成树（无环，但连接了所有节点）
 - Kruskal
@@ -157,22 +207,46 @@
 ### 深度优先 DFS
 - 深度优先搜索会沿着一条路径不断往下搜索直到不能再继续为止，然后再折返，开始搜索下一条候补路径。
 - DFS一般流程类似于BFS，但是用栈而不是队列
+
+</details>
+
 ## 微积分
+
+<details>
+  <summary>点击展开折叠</summary>
+	
 ### 链式法则
 - `f(g(x))' = f'g'`
 - `f(g(x),z(x))' = f'g' + f'z'`
 - 参考：
   - [📘 知乎◽深度学习数学基础之链式法则](https://zhuanlan.zhihu.com/p/113112455)
+
+</details>
+
 ## 线性代数
+
+<details>
+  <summary>点击展开折叠</summary>
+	
 ### [✒](sources/keyPoints/AEC8C5E3BFE673402/README.md) 矩阵
 - 矩阵代表一种对空间内所有点的线性变换，即线性地改变空间的标准正交基
 - 线性变换：旋转、缩放
 - 方阵可分解为特征值与特征向量，矩阵的变化过程可以用多个方向的缩放表示，特征值代表方向，特征值代表程度
+
+</details>
+
 ## 概率论
+
+<details>
+  <summary>点击展开折叠</summary>
+	
 ### 极大似然估计
 - ∏p（联合概率/所有样本都被正确分类的概率）
 - 选取候选参数中使得所有样本被正确分类的概率最大的参数
 - 损失函数：最大化所有样本正确类别概率的乘积就可以反向寻找最优参数
+
+</details>
+
 ## 评估指标
 - accuracy 正确率：被分对的样本 / 所有样本
 - precision 精度：分对的正样本 / 预测为正的样本
