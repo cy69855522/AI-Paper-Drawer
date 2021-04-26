@@ -248,13 +248,24 @@
 </details>
 
 ## 评估指标
+
+<details>
+  <summary>点击展开折叠</summary>
+	
 - accuracy 正确率：被分对的样本 / 所有样本
 - precision 精度：分对的正样本 / 预测为正的样本
 - recall 召回率（真阳性率）：分对的正样本 / 正样本，有病的被查出来的概率
 - 假阳性率：分错的负样本 / 负样本，没病的被当成有病的概率
 - ROC曲线：滑动归类阈值来产生关键点并连接，横坐标为`1 - 假阳性率`，纵坐标为`真阳性率`，线下面积`AUC = (1 - 假阳性率)*真阳性率`越高越好
 - f1 score：`2*precision*recall / (precision + recall)`
+
+</details>
+
 ## 优化方法
+
+<details>
+  <summary>点击展开折叠</summary>
+	
 - 最小二乘法：设偏导为0求解参数
 - 梯度下降：朝着损失下降最快的方向迭代
 - Sinkhorn（最优分配）：分配优化方法
@@ -272,6 +283,9 @@
 ![](sources/keyPoints/sigmoid.jpg)
 - y = 1/(1+e^(-x))
 - 导数 y' = y(1-y)
+
+</details>
+
 ## ML模型
 
 <details>
