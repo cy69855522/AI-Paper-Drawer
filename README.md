@@ -326,6 +326,8 @@
 ## 损失函数
 ### [✒](sources/keyPoints/53627F636330557E64627F6069BFE673402/README.md) Cross Entropy
 - 交叉熵常用于分类问题，表示的是预测结果的概率分布与实际结果概率分布的差异
+- 熵代表信息量的期望
+- AB的KL散度 = A的熵 + AB交叉熵
 ## 归一化
 ## 激活函数
 ### Sigmoid/Logistic
