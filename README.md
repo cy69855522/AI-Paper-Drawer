@@ -115,6 +115,46 @@
 - 每个结点的值均大于其左子树上任意一个结点的值，小于其右子树上任意一个结点的值
 - 删除节点后，在被删除结点的左子树中寻找最大结点放上去，如果需要移动的结点还有子结点，就递归执行前面的操作
 - 平衡时时间复杂度为`o(logN)`，最坏情况下`O(N)`
+### 栈
+- **对称型数据**
+  - [20. 有效的括号](https://leetcode-cn.com/problems/valid-parentheses/)
+- 需要**控制局部出栈**
+### 单调队列
+- **控制局部出队**
+
+</details>
+
+## 双指针
+
+<details>
+- 在**有序数组**中利用双指针可以降低时间复杂度
+  - [167. 两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/submissions/)
+
+</details>
+
+## 滑动窗口
+
+<details>
+- 具有**局部性质（比如连续）**
+  - [53. 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)
+- 利用local和global来分别记录以当前位置为结尾的局部值和全局值
+
+</details>
+
+## 背包问题
+
+<details>
+- 以某个物体选或者不选作为节点分叉，构造BFS解决
+- 完全背包问题需要在选择使用当前物体的情况下持续加分支直到不选用（即转化为01背包问题）
+- 题目通常要求**选择子集**
+
+</details>
+
+## 二分查找
+
+<details>
+- 解空间一定具有**单调**的性质
+- 一般数学题会用到
 
 </details>
 
