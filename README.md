@@ -127,14 +127,18 @@
 ## 双指针
 
 <details>
+  <summary>点击展开折叠</summary>
+
 - 在**有序数组**中利用双指针可以降低时间复杂度
-  - [167. 两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/submissions/)
+- [167. 两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/submissions/)
 
 </details>
 
 ## 滑动窗口
 
 <details>
+  <summary>点击展开折叠</summary>
+
 - 具有**局部性质（比如连续）**
   - [53. 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)
 - 利用local和global来分别记录以当前位置为结尾的局部值和全局值
@@ -144,6 +148,8 @@
 ## 背包问题
 
 <details>
+  <summary>点击展开折叠</summary>
+
 - 以某个物体选或者不选作为节点分叉，构造BFS解决
 - 完全背包问题需要在选择使用当前物体的情况下持续加分支直到不选用（即转化为01背包问题）
 - 题目通常要求**选择子集**
@@ -153,6 +159,8 @@
 ## 二分查找
 
 <details>
+  <summary>点击展开折叠</summary>
+
 - 解空间一定具有**单调**的性质
 - 一般数学题会用到
 
