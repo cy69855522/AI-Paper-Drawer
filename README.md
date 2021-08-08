@@ -300,7 +300,7 @@
 
 <details>
   <summary>点击展开折叠</summary>
-	
+
 - accuracy 正确率：被分对的样本 / 所有样本
 - precision 精度：分对的正样本 / 预测为正的样本
 - recall 召回率（真阳性率）：分对的正样本 / 正样本，有病的被查出来的概率
@@ -322,12 +322,17 @@
 	- 目标：找到总体满意度最高的分配方法，
 	- 参考：[📕 CSDN◽Sinkhorn算法](https://blog.csdn.net/zsfcg/article/details/112510577)
 ### SGD
+
 ### Adam
+
 ## 损失函数
 ### [✒](sources/keyPoints/53627F636330557E64627F6069BFE673402/README.md) Cross Entropy
 - 交叉熵常用于分类问题，表示的是预测结果的概率分布与实际结果概率分布的差异
 - 熵代表信息量的期望
 - AB的KL散度 = A的熵 + AB交叉熵
+- CEL = ∑-logP
+### Focalloss
+- Loss = -∑ α · (1-P)^γ · logP
 ## 归一化
 ## 激活函数
 ### Sigmoid/Logistic
